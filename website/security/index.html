@@ -1,0 +1,232 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>安全与治理体系 | brick-bootkit-admin</title>
+    <meta
+      name="description"
+      content="通过请求响应加密、授权控制、安装预检与任务追踪机制，降低企业后台系统上线与运行风险。"
+    />
+    <meta name="keywords" content="后台安全治理,请求响应加密,授权控制,安装预检,任务追踪" />
+    <link rel="canonical" href="https://yc.zqzqq.com/security/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="安全与治理体系 | brick-bootkit-admin" />
+    <meta property="og:description" content="可上线、可审计、可回溯的后台治理能力。" />
+    <meta property="og:url" content="https://yc.zqzqq.com/security/" />
+    <meta property="og:locale" content="zh_CN" />
+    <link rel="preload" as="image" href="/images/showcase/role-list.webp" type="image/webp" />
+    <link rel="stylesheet" href="/src/site.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">
+            <strong>brick-bootkit-admin</strong>
+            <small>企业后台平台</small>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a href="/">首页</a>
+          <a href="/capability/">平台能力</a>
+          <a href="/scenarios/">行业场景</a>
+          <a class="active" href="/security/">安全治理</a>
+          <a href="/ecosystem/">生态扩展</a>
+          <a href="/faq/">常见问题</a>
+          <a href="/contact/">联系咨询</a>
+        </nav>
+        <div class="header-actions"><button class="lang-btn" type="button" data-lang-toggle>EN</button><a class="btn btn-sm" href="/contact/">预约演示</a></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-copy reveal">
+          <p class="eyebrow">Security & Governance</p>
+          <h1>可上线、可审计、可回溯的治理能力</h1>
+          <p>
+            brick-bootkit-admin 将安全与治理能力放在平台基础层，避免“先上线、后补救”的高风险路径。
+            本页聚焦可验证机制，而非抽象安全口号。
+          </p>
+          <p class="meta-line">最后更新：2026-03-05</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container shot-inline-grid">
+          <article class="shot-card reveal">
+            <div class="shot-head">
+              <h2>授权与角色治理界面</h2>
+              <span>角色状态、权限操作和治理入口集中可视化</span>
+            </div>
+            <picture>
+                <source srcset="/images/showcase/role-list.webp" type="image/webp" />
+                <img src="/images/showcase/role-list.png" alt="brick-bootkit-admin 授权与角色治理界面截图" loading="lazy" />
+              </picture>
+          </article>
+          <article class="shot-card reveal delay-1">
+            <div class="shot-head">
+              <h2>任务追踪与执行界面</h2>
+              <span>任务状态、执行动作、重试入口同屏可追踪</span>
+            </div>
+            <picture>
+                <source srcset="/images/showcase/task-manager.webp" type="image/webp" />
+                <img src="/images/showcase/task-manager.png" alt="brick-bootkit-admin 任务追踪执行界面截图" loading="lazy" />
+              </picture>
+          </article>
+        </div>
+      </section>
+
+      <section class="section tight">
+        <div class="container">
+          <div class="trust-strip reveal">
+            <ul class="trust-list">
+              <li>
+                <strong>授权边界清晰</strong>
+                <span>角色与权限节点统一管理，减少越权风险。</span>
+              </li>
+              <li>
+                <strong>任务状态透明</strong>
+                <span>待处理、执行中、成功、失败状态可回放。</span>
+              </li>
+              <li>
+                <strong>操作链路可追踪</strong>
+                <span>失败信息与追踪 ID 支撑快速定位问题。</span>
+              </li>
+              <li>
+                <strong>治理流程可复制</strong>
+                <span>从预检到上线的步骤标准化沉淀。</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container card-grid two">
+          <article class="card reveal">
+            <h2>链路数据保护</h2>
+            <p>支持请求与响应加密链路，降低关键业务数据在传输中的暴露风险。</p>
+            <ul>
+              <li>请求端加密载荷封装</li>
+              <li>响应端加密回传机制</li>
+              <li>防重放与参数校验能力</li>
+            </ul>
+            <div class="stat-row">
+              <span class="pill ok">适用于敏感业务场景</span>
+              <span class="pill">强调链路安全</span>
+            </div>
+          </article>
+
+          <article class="card reveal delay-1">
+            <h2>授权策略控制</h2>
+            <p>通过授权功能开关与策略控制，实现不同环境下的能力约束管理。</p>
+            <ul>
+              <li>授权能力可启停配置</li>
+              <li>运行期能力校验策略</li>
+              <li>与应用市场能力协同控制</li>
+            </ul>
+            <div class="stat-row">
+              <span class="pill ok">开发与生产策略可分离</span>
+              <span class="pill">强调策略一致性</span>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <h2>安装前预检机制</h2>
+            <p>扩展能力上线前先做预检，阻断高风险安装动作进入生产路径。</p>
+            <ul>
+              <li>版本有效性校验</li>
+              <li>运行环境约束校验</li>
+              <li>阻断信息可读可追踪</li>
+            </ul>
+            <div class="stat-row">
+              <span class="pill ok">减少变更事故</span>
+              <span class="pill">强调上线前风险识别</span>
+            </div>
+          </article>
+
+          <article class="card reveal delay-1">
+            <h2>任务追踪与审计</h2>
+            <p>通过任务状态与追踪信息，实现安装过程可观测、问题可定位。</p>
+            <ul>
+              <li>任务状态可视化：待处理、执行中、成功、失败</li>
+              <li>追踪 ID 与错误信息定位</li>
+              <li>支持重试与结果复盘</li>
+            </ul>
+            <div class="stat-row">
+              <span class="pill ok">提升排障效率</span>
+              <span class="pill warn">建议配合审计规范使用</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="container">
+          <header class="section-head reveal">
+            <p class="eyebrow">治理闭环</p>
+            <h2>推荐的上线治理流程</h2>
+          </header>
+          <ol class="timeline card reveal">
+            <li>定义授权策略与访问边界。</li>
+            <li>执行安装前预检并输出阻断信息。</li>
+            <li>创建安装任务并跟踪执行状态。</li>
+            <li>失败时根据追踪信息定位并重试。</li>
+            <li>上线后保留关键动作审计记录。</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta reveal">
+            <div>
+              <p class="eyebrow">咨询入口</p>
+              <h2>获取与你业务匹配的安全治理建议</h2>
+              <p>遇财（杭州）科技有限公司可提供后台上线风险评估与治理路径建议。</p>
+            </div>
+            <div class="actions">
+              <a class="btn" href="/contact/">联系技术顾问</a>
+              <a class="btn btn-ghost" href="/faq/">查看常见问题</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h2>brick-bootkit-admin</h2>
+          <p>通过可配置的安全与治理机制，降低后台上线和运维风险。</p>
+        </div>
+        <div>
+          <h3>快速访问</h3>
+          <ul>
+            <li><a href="/capability/">平台能力</a></li>
+            <li><a href="/ecosystem/">生态扩展</a></li>
+            <li><a href="/facts/">事实卡片</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>联系咨询</h3>
+          <ul>
+            <li>运营主体：遇财（杭州）科技有限公司</li>
+            <li>邮箱：<a href="mailto:admin@zqzqq.com">admin@zqzqq.com</a> <button class="copy-mini" type="button" data-copy-text="admin@zqzqq.com" data-copy-label="邮箱">复制</button></li>
+            <li>电话：<a href="tel:18268185209">18268185209</a> <button class="copy-mini" type="button" data-copy-text="18268185209" data-copy-label="电话">复制</button></li>
+            <li>微信：worker_680 <button class="copy-mini" type="button" data-copy-text="worker_680" data-copy-label="微信号">复制</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span data-current-year></span> 遇财（杭州）科技有限公司 版权所有</span>
+      </div>
+    </footer>
+    <script type="module" src="/src/site.js"></script>
+  </body>
+</html>
+
+

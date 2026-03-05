@@ -1,0 +1,1787 @@
+{
+  "generatedAt": "2026-03-02T13:23:33.309Z",
+  "hostOs": "win32-x64",
+  "mode": "external",
+  "version": "0.1.0",
+  "groups": {
+    "docker": [
+      {
+        "path": "docker/compose-templates/.env.bundled.example",
+        "size": 332,
+        "sha256": "7af62a3e29ab5911263e581d5dbdb84ce8432dc823e72575fef1cf9b110f24ac"
+      },
+      {
+        "path": "docker/compose-templates/.env.example",
+        "size": 500,
+        "sha256": "a19e0ca0241167dc9b57f01c968400c38258565470b490a9aa78f3f13501ee25"
+      },
+      {
+        "path": "docker/compose-templates/.env.external.example",
+        "size": 562,
+        "sha256": "b2a358cf95cd09a0b0884a00c25f9a7f98576fa0138979c00883e620e093ab45"
+      },
+      {
+        "path": "docker/compose-templates/.env.hybrid.mysql.example",
+        "size": 452,
+        "sha256": "b61f6c753b812e12b3439ee901d3a15a95e554fc45cd67bd42b8ac43f0501942"
+      },
+      {
+        "path": "docker/compose-templates/.env.hybrid.redis.example",
+        "size": 474,
+        "sha256": "3dc02a06629a75ff67274b97b1fbe62c722d523d05b372bb61e220c119224cf7"
+      },
+      {
+        "path": "docker/compose-templates/compose.bundled.yml",
+        "size": 1917,
+        "sha256": "b05f56e3139970f6e3a473130bcc5e159a5f9f85581382e66d375eeda6e946a5"
+      },
+      {
+        "path": "docker/compose-templates/compose.external.yml",
+        "size": 451,
+        "sha256": "a4e68cadcf89506df6811e3c96979593587b9c7b8f98bd6e2d84b1065e4d1d1e"
+      },
+      {
+        "path": "docker/compose-templates/compose.hybrid.mysql.yml",
+        "size": 1393,
+        "sha256": "c5eb18ac9f1fd04d051efcdb4df9ca6a4f082f5a567c4cd654abb45facb4d19c"
+      },
+      {
+        "path": "docker/compose-templates/compose.hybrid.redis.yml",
+        "size": 916,
+        "sha256": "0ed3e2f3c86893e07be4cc2206e5dfc2e2b124b79d229f2794ca0d001156e933"
+      },
+      {
+        "path": "docker/compose-templates/compose.yml",
+        "size": 1451,
+        "sha256": "56b3907baf14066eb8dd89eb7647d51e18e2dcd5b285053329d80a3fb9a44e00"
+      },
+      {
+        "path": "docker/compose-templates/Dockerfile",
+        "size": 766,
+        "sha256": "41a96fd268d16ba8d8a155a4cdcf9dc3ada6ba4d8bbf0a32b9383e5fe1ece5a3"
+      },
+      {
+        "path": "docker/compose-templates/Dockerfile.native",
+        "size": 1179,
+        "sha256": "d9b874324491fd9ec743d6b23ab84222fcb1a8ad1cd8ebb009a874d0329aa4d9"
+      },
+      {
+        "path": "docker/compose-templates/Dockerfile.native-build",
+        "size": 1551,
+        "sha256": "74703c46885f22bdad1f3c98503d36f29cb88db9922f2334e8f74a6d252fa29a"
+      },
+      {
+        "path": "docker/compose-templates/entrypoint.sh",
+        "size": 258,
+        "sha256": "0ae0a8c4b31140ac49fed5f8c95aaca691b1ebd9a5cc17e3fd6647041d7acdbc"
+      },
+      {
+        "path": "docker/compose-templates/README.md",
+        "size": 2176,
+        "sha256": "2aff66ac6375c813f83eccb32bcde19dc92ca57a54f623b02778f30591429065"
+      },
+      {
+        "path": "docker/compose-templates/scripts/down.ps1",
+        "size": 686,
+        "sha256": "78197cecd3f183e810fb61bb1034ca4a2620fe8b0fb0d6e85e06bf5c48c51f41"
+      },
+      {
+        "path": "docker/compose-templates/scripts/down.sh",
+        "size": 668,
+        "sha256": "736deb802416e3aa771db72e831fe95da9753f5dd03d35b24be790cefd8536de"
+      },
+      {
+        "path": "docker/compose-templates/scripts/prepare-runtime.ps1",
+        "size": 598,
+        "sha256": "aed925a098e9580c50dc61b1f4b5b03c0b1604e15fdc7c8a79f4664071cad16e"
+      },
+      {
+        "path": "docker/compose-templates/scripts/prepare-runtime.sh",
+        "size": 451,
+        "sha256": "f673fc669c4750c2561141b38025cf8d807e29199e2a3047d39e6e7b992bf677"
+      },
+      {
+        "path": "docker/compose-templates/scripts/up-bundled.ps1",
+        "size": 363,
+        "sha256": "865da88ee9a798b8c058f2052ae886eeaad204639f45d05aa57a3d6d44695bd8"
+      },
+      {
+        "path": "docker/compose-templates/scripts/up-bundled.sh",
+        "size": 346,
+        "sha256": "a58e77a215e8ab85ff71c9e69e24426e628de7545db2eb67087d2c8ea3fb90d0"
+      },
+      {
+        "path": "docker/compose-templates/scripts/up-external.ps1",
+        "size": 367,
+        "sha256": "3ff16ba2eb1e828e8bceb0fd6bb62011f4149ebd88f3aa030942c777dfb0b9c8"
+      },
+      {
+        "path": "docker/compose-templates/scripts/up-external.sh",
+        "size": 350,
+        "sha256": "e8ed6f399fef07590789fe7d18294c294075461facca1bcd66d455777d9757db"
+      },
+      {
+        "path": "docker/compose-templates/scripts/up-hybrid-mysql.ps1",
+        "size": 403,
+        "sha256": "60c6d5a0508432272aea615222ad6d086f81aa054ac1221a27c7aee62219face"
+      },
+      {
+        "path": "docker/compose-templates/scripts/up-hybrid-mysql.sh",
+        "size": 386,
+        "sha256": "de966cf5821e1f43d53e6b0e462d48d420b4b4eb20735b1ab84b072748d71352"
+      },
+      {
+        "path": "docker/compose-templates/scripts/up-hybrid-redis.ps1",
+        "size": 403,
+        "sha256": "98b64e2e82c140964eff1d1120f6b3a1031a6df9b5b62baa26fdbc5a15d87c3e"
+      },
+      {
+        "path": "docker/compose-templates/scripts/up-hybrid-redis.sh",
+        "size": 386,
+        "sha256": "d54791bc6713873a25e2fcdf0b701a1a51613c4560267ecd4a727892a996ebf7"
+      }
+    ],
+    "linux": [
+      {
+        "path": "linux/NOT_BUILT_ON_THIS_OS.txt",
+        "size": 51,
+        "sha256": "bccbdf3b601cf6919acb62d048dd262f9a9174f041243cada23e0090ae1ce8f1"
+      }
+    ],
+    "macos": [
+      {
+        "path": "macos/NOT_BUILT_ON_THIS_OS.txt",
+        "size": 47,
+        "sha256": "3b319daba294c3f7e4bc8e775bf072bdbe30db23441fbad333578c35d5d16a6b"
+      }
+    ],
+    "obfuscated": [
+      {
+        "path": "obfuscated/brick-bootkit-admin-obfuscated.jar",
+        "size": 169859488,
+        "sha256": "c1fbe6030180f11005d0f228a0d6bc22778bfc6c76434414426dc5d84f76d326"
+      },
+      {
+        "path": "obfuscated/brick-bootkit-admin-origin.jar",
+        "size": 169902078,
+        "sha256": "1c8b29788a3659aadbc5be8db5cf550a067d26427e1d10751eea742c900f9614"
+      }
+    ],
+    "payload": [
+      {
+        "path": "payload/app/brick-bootkit-admin.jar",
+        "size": 169859488,
+        "sha256": "c1fbe6030180f11005d0f228a0d6bc22778bfc6c76434414426dc5d84f76d326"
+      },
+      {
+        "path": "payload/config/application-product.yml",
+        "size": 650,
+        "sha256": "d6ce3050cabb46f5bc95d4d0db9ece23ee73d77962a6014bab1579167fb5be70"
+      },
+      {
+        "path": "payload/webapps/webroot/css/403.b1e9c773.css",
+        "size": 1494,
+        "sha256": "b1e9c77313a7242f5a525357665562fe64b5ce137f3ee950180ba0188d6e3c78"
+      },
+      {
+        "path": "payload/webapps/webroot/css/add.23828782.css",
+        "size": 3107,
+        "sha256": "2382878211f9bfe52d472f0e675503393bba2561aecb44c83146b459a895fed4"
+      },
+      {
+        "path": "payload/webapps/webroot/css/add.43a8ef1b.css",
+        "size": 435,
+        "sha256": "43a8ef1b6936af04f61318a928a903adb0f67ba389cc0ac860a08c90f21748f7"
+      },
+      {
+        "path": "payload/webapps/webroot/css/add.4a2c72ea.css",
+        "size": 1090,
+        "sha256": "4a2c72eabfd3a8ed9151240ea3b230630083dae9c60ae87d3f8ff812a8573207"
+      },
+      {
+        "path": "payload/webapps/webroot/css/add.6e28b764.css",
+        "size": 921,
+        "sha256": "6e28b76490fc7bb78b44b78ec2c286bee44daba2101bdb306f20f6bd5ce2cf26"
+      },
+      {
+        "path": "payload/webapps/webroot/css/add.81d40501.css",
+        "size": 4948,
+        "sha256": "81d4050184d98015cb8612bc0f57a67f61d0c3d4ef174aee5262ee46caacd840"
+      },
+      {
+        "path": "payload/webapps/webroot/css/add.97d95b74.css",
+        "size": 3034,
+        "sha256": "97d95b74a3014e07d0c05c1ac9c1feadd05a6e004d5ee9ffde682c50f34e9cda"
+      },
+      {
+        "path": "payload/webapps/webroot/css/add.b18f864d.css",
+        "size": 751,
+        "sha256": "b18f864d87940dc79225e2c4925a21309b68fa01f8b35bb9c6e19383c9263857"
+      },
+      {
+        "path": "payload/webapps/webroot/css/AIChatRobot.a9a0245f.css",
+        "size": 7405,
+        "sha256": "a9a0245f0fbb71dc2e645959c32264bae49081904f278da8b0e79fa1df1d05f3"
+      },
+      {
+        "path": "payload/webapps/webroot/css/aieditor-core.20bd6557.css",
+        "size": 34252,
+        "sha256": "20bd6557b52e480cfb23dac61fbd1610b40248c7f0573c1312ba735eb6c82608"
+      },
+      {
+        "path": "payload/webapps/webroot/css/AliyunSmsConfig.cf8e5475.css",
+        "size": 48,
+        "sha256": "cf8e5475d7e735b69d23e224067cbd6ae58e835ea2973fed4a5d1223e882e602"
+      },
+      {
+        "path": "payload/webapps/webroot/css/app-config.2a918f6b.css",
+        "size": 790,
+        "sha256": "2a918f6ba561a64475ad974e89ca48a88e10ce11707ac383db574c220ff108cc"
+      },
+      {
+        "path": "payload/webapps/webroot/css/BaiduSmsConfig.1518dced.css",
+        "size": 48,
+        "sha256": "1518dced3e8afca67f900cf2ec8ad1869adf7a3d501375af6f02e341cb9a5cdc"
+      },
+      {
+        "path": "payload/webapps/webroot/css/base.e61e981d.css",
+        "size": 10588,
+        "sha256": "e61e981dbb9bba7c57ff14436de689e5ac63aa93a3b423385db2ecbcb1adbede"
+      },
+      {
+        "path": "payload/webapps/webroot/css/bindwechat.291d8c1a.css",
+        "size": 285,
+        "sha256": "291d8c1a3c2ae28d385c3ec7a63ef8c2261459c82105b59062bf38e5148f6bb8"
+      },
+      {
+        "path": "payload/webapps/webroot/css/certsfind.03093376.css",
+        "size": 43,
+        "sha256": "03093376a56529218613afdcb89a8867c21cd0b44015d4dd2649db06a4952d94"
+      },
+      {
+        "path": "payload/webapps/webroot/css/ChangePasswordModal.24addc83.css",
+        "size": 1104,
+        "sha256": "24addc838caf4975bed4a7d0115533a4ed2b58b0a9595d9d44f69988400a5870"
+      },
+      {
+        "path": "payload/webapps/webroot/css/copyright.24b93ad1.css",
+        "size": 47,
+        "sha256": "24b93ad10278c40155aee88a9d718a6483849665f60c791ca2abc34f979a9fe1"
+      },
+      {
+        "path": "payload/webapps/webroot/css/CustomSidebarMenu.1090921b.css",
+        "size": 3076,
+        "sha256": "1090921b341acaf672fecf6fddeb6cc284abe2eeaed007b34d1a0e7ae7293186"
+      },
+      {
+        "path": "payload/webapps/webroot/css/default.070dcc4e.css",
+        "size": 6438,
+        "sha256": "070dcc4e8b01221e0fc110a79b779ac17421d6f7e7c964954d3301dccc0dae4a"
+      },
+      {
+        "path": "payload/webapps/webroot/css/default.68ad2a80.css",
+        "size": 17522,
+        "sha256": "68ad2a80f3c917b48599a4187e63c3a06944b2f27cdeb7705016a1d746412bf2"
+      },
+      {
+        "path": "payload/webapps/webroot/css/detail.6cda2c51.css",
+        "size": 41,
+        "sha256": "6cda2c518fbd6ff72b4cd4057bcd504c1f15ca2df85c47323a69f94ca1c4abe7"
+      },
+      {
+        "path": "payload/webapps/webroot/css/detail.bfdcb2fa.css",
+        "size": 489,
+        "sha256": "bfdcb2fac34371f4181d20df47c4bd25f38a7264a4cf2c3003aee6a2a73ff6ec"
+      },
+      {
+        "path": "payload/webapps/webroot/css/edit-templ.d6bd5e35.css",
+        "size": 695,
+        "sha256": "d6bd5e35cba00851fb7cf2510e9c839278f6b8129793ee5495e5f4e6598ae6ae"
+      },
+      {
+        "path": "payload/webapps/webroot/css/edit.dcade846.css",
+        "size": 1181,
+        "sha256": "dcade846bb8e0a20a4b47d36baf6ea2bf79ce8f3bc2c9f0e9a61863ac3384845"
+      },
+      {
+        "path": "payload/webapps/webroot/css/edit.efbb7409.css",
+        "size": 921,
+        "sha256": "efbb740977d1055f6ec6fe8c19278eb4fcfac28291ec73488f09a8e5a2731016"
+      },
+      {
+        "path": "payload/webapps/webroot/css/editPwd.dc5b2ca6.css",
+        "size": 65,
+        "sha256": "dc5b2ca63994e7821b4c5938984ce5a921e11d13f7a6a026a3d7ad167de036fe"
+      },
+      {
+        "path": "payload/webapps/webroot/css/email-template-manager.1a0988e7.css",
+        "size": 1832,
+        "sha256": "1a0988e71aecc84b740b573328d9b55dc47af73aaef559efc1d1e650fa561fdc"
+      },
+      {
+        "path": "payload/webapps/webroot/css/email.a8d3785c.css",
+        "size": 3690,
+        "sha256": "a8d3785c5a4cfc973861dbaf800c93d79409cd7b036f1ca8f86bb2fd2a7c7bce"
+      },
+      {
+        "path": "payload/webapps/webroot/css/emailList.b9ea44a3.css",
+        "size": 5681,
+        "sha256": "b9ea44a3858d74c15ae959dab7161f026bba1564912e85ff928ac78b3c24cb7b"
+      },
+      {
+        "path": "payload/webapps/webroot/css/emailLogin.87ef15a7.css",
+        "size": 1252,
+        "sha256": "87ef15a73d4f76e9ca81666f2c63e32a3b9842c5b9bb1484f586148158b585d2"
+      },
+      {
+        "path": "payload/webapps/webroot/css/emailSend.d2dedc67.css",
+        "size": 1660,
+        "sha256": "d2dedc675b0874e0ae0e9b751708e1841a84cfaae9b6ee8cc9662080747207a9"
+      },
+      {
+        "path": "payload/webapps/webroot/css/eq-avatar.20b4f19f.css",
+        "size": 331,
+        "sha256": "20b4f19f45b3874cf7378bd1c7d5bc0dd73f0989f94fd70a180df66291c6dd39"
+      },
+      {
+        "path": "payload/webapps/webroot/css/eq-footer.0487777d.css",
+        "size": 4729,
+        "sha256": "0487777dd7ee7b5906976d243a6062f7d9ad1569a27fb9a1d849e72b5acdccb0"
+      },
+      {
+        "path": "payload/webapps/webroot/css/file-modified.ddd22163.css",
+        "size": 1820,
+        "sha256": "ddd22163e124ca567aff331ac5bbaa9771fed8f4b2e95d68ec96f679611ccff4"
+      },
+      {
+        "path": "payload/webapps/webroot/css/file.42f5d507.css",
+        "size": 6771,
+        "sha256": "42f5d507ab7c445ea0b0d238e0652389e72ce2e21c93eefbb3f3a0a53648a3ab"
+      },
+      {
+        "path": "payload/webapps/webroot/css/FileUpload.c20508c6.css",
+        "size": 494,
+        "sha256": "c20508c60a407f8256dfcf82d0cf4259b687222cbbfe1ca373802626b3036b79"
+      },
+      {
+        "path": "payload/webapps/webroot/css/finished.cd6e7d2b.css",
+        "size": 47,
+        "sha256": "cd6e7d2b7d0bcfb78f909d2a39e7650947315208ad5d2848c806337cb516bd88"
+      },
+      {
+        "path": "payload/webapps/webroot/css/GlobalTable.f297c9ea.css",
+        "size": 1256,
+        "sha256": "f297c9ea1a9509eeff11dfa7ebd30f5b358265de5a2fda2d965d5cb9c08189a3"
+      },
+      {
+        "path": "payload/webapps/webroot/css/health-monitor.f4632cb1.css",
+        "size": 398,
+        "sha256": "f4632cb11d7e95196ee2bb116d5c617fe7dcf9392e55a321c22d8d0aaab3f28f"
+      },
+      {
+        "path": "payload/webapps/webroot/css/icon-drawer.b306e53e.css",
+        "size": 2014,
+        "sha256": "b306e53e04e8aeb08d4021e8b60c53b7b1181881cd8d22933364bada977c43ff"
+      },
+      {
+        "path": "payload/webapps/webroot/css/icon-library.ca4ddfa9.css",
+        "size": 2274,
+        "sha256": "ca4ddfa98c04d8acb514ad0709af0f693454cf27c7b8e41ae3f119bf6cffd3dc"
+      },
+      {
+        "path": "payload/webapps/webroot/css/iflow.1da1ec25.css",
+        "size": 2574,
+        "sha256": "1da1ec25e3c9620ec1e25ad5284f3e383c709b0889d56d04c056ef2783c0ca4e"
+      },
+      {
+        "path": "payload/webapps/webroot/css/IframeLoader.f4dc0800.css",
+        "size": 263,
+        "sha256": "f4dc0800b3944f29b293c246039f85364ced754f1aee7fe27f359b0e7220d74a"
+      },
+      {
+        "path": "payload/webapps/webroot/css/index.69fd8c31.css",
+        "size": 1669,
+        "sha256": "69fd8c31aa6edf34d5106f3b42ccd5a57e8ec70b6688f4bb8021a0f453472d80"
+      },
+      {
+        "path": "payload/webapps/webroot/css/index.b2cafa57.css",
+        "size": 6567,
+        "sha256": "b2cafa5778a7d4eda5e1d586728a2fe6a22f6ab9f0c194f055d40c829c856fa6"
+      },
+      {
+        "path": "payload/webapps/webroot/css/index.c79aa193.css",
+        "size": 3300,
+        "sha256": "c79aa193fc4a222fdfbad1132a158c5150d0292ea7b77196fa0973e2c99357ae"
+      },
+      {
+        "path": "payload/webapps/webroot/css/index.cda9922a.css",
+        "size": 71693,
+        "sha256": "cda9922a824862178508c5efd74f89a1eaebe317cc2d68c8358a50cb030f64f3"
+      },
+      {
+        "path": "payload/webapps/webroot/css/index.cee481ca.css",
+        "size": 1740,
+        "sha256": "cee481ca1ae402ff0920f54df6f8ae6a8c0fecc4894de2e4123a7fb3cf4547bf"
+      },
+      {
+        "path": "payload/webapps/webroot/css/ipBlockList.52420b2b.css",
+        "size": 720,
+        "sha256": "52420b2bc1f27abb6136c1c8ab4ee1f098938e7e4757ca953af9990fbb1dde08"
+      },
+      {
+        "path": "payload/webapps/webroot/css/JdSmsConfig.3706f30f.css",
+        "size": 48,
+        "sha256": "3706f30f31d53cb4de374acfd34c13efa5d087749e8af9732a19d94f4ee94301"
+      },
+      {
+        "path": "payload/webapps/webroot/css/list.08f0a9f6.css",
+        "size": 3792,
+        "sha256": "08f0a9f6b592bdb457c22256cb225c842b98f9af64242f19ac3357aab540a04b"
+      },
+      {
+        "path": "payload/webapps/webroot/css/list.2bd03b07.css",
+        "size": 93,
+        "sha256": "2bd03b074f4857f0cab4b68a65766ea0cb4682a3bcc1ed21abcc7a26310c3539"
+      },
+      {
+        "path": "payload/webapps/webroot/css/list.463420d3.css",
+        "size": 1694,
+        "sha256": "463420d3b6acb5cfbf8cb3adee6c544dda18ce4a6d07fdc02dabe8a8a1c495c6"
+      },
+      {
+        "path": "payload/webapps/webroot/css/list.5985635c.css",
+        "size": 2137,
+        "sha256": "5985635c4b78404d6002150d8f817f3a4464f9a60cf803a0e01dcbef4561eee0"
+      },
+      {
+        "path": "payload/webapps/webroot/css/list.663621d5.css",
+        "size": 7829,
+        "sha256": "663621d565cf76d0981177804109b078163bb62ae9af46d970d9bd75b06ab074"
+      },
+      {
+        "path": "payload/webapps/webroot/css/list.80b50899.css",
+        "size": 5296,
+        "sha256": "80b5089909d03c84a5d968ca27a1a0a78ec6d58973ccfaaf86ada03d2984d876"
+      },
+      {
+        "path": "payload/webapps/webroot/css/list.9e34b4c7.css",
+        "size": 1504,
+        "sha256": "9e34b4c75e08d17d7eb3cd54d19c00f0c7e31333c26617c7219d84ed349d52d2"
+      },
+      {
+        "path": "payload/webapps/webroot/css/list.aa6980cb.css",
+        "size": 8843,
+        "sha256": "aa6980cb73957229c4b902ec1eead5dcd39d320a557ea419f283cfc93dd796bb"
+      },
+      {
+        "path": "payload/webapps/webroot/css/list.adda1f06.css",
+        "size": 3360,
+        "sha256": "adda1f06d19933c413a361bce81a90eece09c0958f57e5e15ff782cd6fe0ac62"
+      },
+      {
+        "path": "payload/webapps/webroot/css/list.c361ecf8.css",
+        "size": 1144,
+        "sha256": "c361ecf89ca57a750200030c2ed613abde5393de78913209bf4cf310c4b0db2a"
+      },
+      {
+        "path": "payload/webapps/webroot/css/list.e6670074.css",
+        "size": 8183,
+        "sha256": "e6670074642c36c1150049199a460f5a2d3530db881c493b1e1be2de1eb94cab"
+      },
+      {
+        "path": "payload/webapps/webroot/css/ListPageTemplate.60028c7f.css",
+        "size": 165,
+        "sha256": "60028c7f72afbd120b44b304e131181668be8fdfcd3e7700b0e4ce7f96f4056a"
+      },
+      {
+        "path": "payload/webapps/webroot/css/lock-manager.ee49ef3c.css",
+        "size": 124,
+        "sha256": "ee49ef3c62c5555b1cfe9cb86d9f37017d50fc7f8257ebbe616836655fb81824"
+      },
+      {
+        "path": "payload/webapps/webroot/css/machine.f2c17cef.css",
+        "size": 3078,
+        "sha256": "f2c17cefb826dd02a2ef6976249095087188d73f96b711cae2f4067322c41b07"
+      },
+      {
+        "path": "payload/webapps/webroot/css/manager.1139d848.css",
+        "size": 214,
+        "sha256": "1139d8486e1989270e3a0596335a259ab01df93112f5249f429d6b610c154b60"
+      },
+      {
+        "path": "payload/webapps/webroot/css/manager.eb19c1cc.css",
+        "size": 43,
+        "sha256": "eb19c1cc03386f1c107d4a17f1760b6a9dcdbac9962bf9066d52b8aaf094ef3c"
+      },
+      {
+        "path": "payload/webapps/webroot/css/manager.f62ab6d9.css",
+        "size": 43,
+        "sha256": "f62ab6d937984eca6d479880edf81b4f79b6da22073e53e537dfd410ddd4dfea"
+      },
+      {
+        "path": "payload/webapps/webroot/css/MessageDrawer.1f9d4740.css",
+        "size": 972,
+        "sha256": "1f9d47407d6edb21d229c63d59234db6c1f6466220d86a1c684606b091595d37"
+      },
+      {
+        "path": "payload/webapps/webroot/css/MicroAppManager.67db97fa.css",
+        "size": 1072,
+        "sha256": "67db97fa73ee507c082c9d06e89a5335ecb3eb101e96af54209f268e985b91ad"
+      },
+      {
+        "path": "payload/webapps/webroot/css/nginx.51f76d76.css",
+        "size": 635,
+        "sha256": "51f76d76a03ce2b0b359da44147123a0337ca54c12b741426cd932318cbbace1"
+      },
+      {
+        "path": "payload/webapps/webroot/css/orderList.f5fec554.css",
+        "size": 40,
+        "sha256": "f5fec554b04a68b8e9e39da7ed384ae812d113bfad2b016c734551003f797344"
+      },
+      {
+        "path": "payload/webapps/webroot/css/OrganizationDetail.cf0ed9b4.css",
+        "size": 4316,
+        "sha256": "cf0ed9b40d4010e8fb83cbd7d2b87478c2c60b200f47d098a176e33c2c6ce63c"
+      },
+      {
+        "path": "payload/webapps/webroot/css/OrganizationForm.724056fb.css",
+        "size": 2466,
+        "sha256": "724056fb56d73d9bfceaa994bf9c62ceb99825448865441d2f13dac14f4bf1dd"
+      },
+      {
+        "path": "payload/webapps/webroot/css/OrganizationTree.6432408f.css",
+        "size": 1711,
+        "sha256": "6432408f4652fbda872a7f3f8ef4e7ead80ae30a57b9dac2c4e8d2ea3cecae7a"
+      },
+      {
+        "path": "payload/webapps/webroot/css/p-aieditor.e3b0c442.css",
+        "size": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "payload/webapps/webroot/css/PaginatedTable.9d36c785.css",
+        "size": 10640,
+        "sha256": "9d36c78565ae1c35581d8be6d351a332eb9bf05c847c2af59ca2d67935e2da34"
+      },
+      {
+        "path": "payload/webapps/webroot/css/perms.a55bb457.css",
+        "size": 4480,
+        "sha256": "a55bb457da43a08ee6a6a0eeb1bf0f2be5ec9f8fc4811a8b1e73da3b6c66ebb7"
+      },
+      {
+        "path": "payload/webapps/webroot/css/phoneLogin.896fc232.css",
+        "size": 928,
+        "sha256": "896fc2326ff61fc4ef138f1c2ed55eddc15a8bbdfa5fa2839f73404764a9e6d1"
+      },
+      {
+        "path": "payload/webapps/webroot/css/profile.3f740a3e.css",
+        "size": 1847,
+        "sha256": "3f740a3e5b68c86b01aa7e1626a5361071ab036151ad77263ef04100784ce8d1"
+      },
+      {
+        "path": "payload/webapps/webroot/css/QiniuSmsConfig.6eefea67.css",
+        "size": 48,
+        "sha256": "6eefea67ba2dcc02bd68a84923684f31056592b49f697ee28e0a9e43ac21e73e"
+      },
+      {
+        "path": "payload/webapps/webroot/css/request.83af6e63.css",
+        "size": 279,
+        "sha256": "83af6e63ee9f40c7cd936d6827db74803ccb02f95e6a7b29ba74ffcb9ec30de5"
+      },
+      {
+        "path": "payload/webapps/webroot/css/roleperm.708f6f02.css",
+        "size": 1929,
+        "sha256": "708f6f026e61d6aa2dc43cb940d4f92b4217f25d5858ef5933b3eb9c3d2aabd6"
+      },
+      {
+        "path": "payload/webapps/webroot/css/sb.0fd25994.css",
+        "size": 43,
+        "sha256": "0fd25994974ae73439c46fbb1a539b45d8642d5271876a9ea0d7c4aa1bcb43af"
+      },
+      {
+        "path": "payload/webapps/webroot/css/script-manager.4f4c2ac3.css",
+        "size": 1423,
+        "sha256": "4f4c2ac3f913b85d7c9bf45f932c460fe6050edc77e8d5e4caa7ee9af11b2dad"
+      },
+      {
+        "path": "payload/webapps/webroot/css/send.e71c800c.css",
+        "size": 1250,
+        "sha256": "e71c800c94bae108bfe1b160e034820383a6442992208dc618a726b83f8c0657"
+      },
+      {
+        "path": "payload/webapps/webroot/css/settings.7f15947e.css",
+        "size": 294,
+        "sha256": "7f15947e1fdc779748a1ad23cdd151c56320ca202b7463da49d057906c56b256"
+      },
+      {
+        "path": "payload/webapps/webroot/css/SignatureManager.1c2deb1b.css",
+        "size": 50,
+        "sha256": "1c2deb1ba11ded4a1bb13d6ea187f7c0cc25a5f14e6cb305fc9921ecbbafb98c"
+      },
+      {
+        "path": "payload/webapps/webroot/css/SignatureModal.95887758.css",
+        "size": 1006,
+        "sha256": "9588775819fb053aa0b2856b21fddcfd27f041eec9bec2aeaef18bb101af7190"
+      },
+      {
+        "path": "payload/webapps/webroot/css/SmsAppConfigModal.3e459cc8.css",
+        "size": 1870,
+        "sha256": "3e459cc8fd8f31951966ff5e9f05ed256760ed8c5038b65c77125b5ec840728f"
+      },
+      {
+        "path": "payload/webapps/webroot/css/SmsTest.6444a53a.css",
+        "size": 41,
+        "sha256": "6444a53abc11064d35e4b8d410450701b841d28190dbad81e58a9f2bfa19e36f"
+      },
+      {
+        "path": "payload/webapps/webroot/css/software.03daf8a4.css",
+        "size": 47,
+        "sha256": "03daf8a49cae70ec9c926a8850f2a13937703ddea670e7cfc7a419236f5cca24"
+      },
+      {
+        "path": "payload/webapps/webroot/css/ss.2ec4335b.css",
+        "size": 43,
+        "sha256": "2ec4335b02bc87f06bd25e53492b09acfc3454dc6348bb94b651927d9ede6e90"
+      },
+      {
+        "path": "payload/webapps/webroot/css/ssl.6956d2e8.css",
+        "size": 155,
+        "sha256": "6956d2e8b61d843d2b5fb72347e431f9d6ec401a99aa1694329ccf06ce87a816"
+      },
+      {
+        "path": "payload/webapps/webroot/css/task-manager.d7f182c4.css",
+        "size": 1430,
+        "sha256": "d7f182c466aabf0a443c2eae02175aa0729c60bde6a7473fe77dc15cab124ce3"
+      },
+      {
+        "path": "payload/webapps/webroot/css/task.f9fa56f0.css",
+        "size": 2206,
+        "sha256": "f9fa56f00b8e787e218ca0fbb7e64b98fa9b21d143e667d638fcea98a4ad9e2a"
+      },
+      {
+        "path": "payload/webapps/webroot/css/tasks.35d054c8.css",
+        "size": 44,
+        "sha256": "35d054c8c0ca0135463b40ca3d8a62378b5af9670d1f696c9b34d19db195b30f"
+      },
+      {
+        "path": "payload/webapps/webroot/css/template-manager.e6d3aabc.css",
+        "size": 183,
+        "sha256": "e6d3aabc7004d5a0b6fd3f5a644cf16f72af6a2bac09c7b7f70c7432b7531c06"
+      },
+      {
+        "path": "payload/webapps/webroot/css/TemplateManager.bc5738ca.css",
+        "size": 49,
+        "sha256": "bc5738ca47e709f74d88bdb36e214a8dfdc1988dff7f25b5a612f5f03b75ad7f"
+      },
+      {
+        "path": "payload/webapps/webroot/css/TemplateModal.09d45ec4.css",
+        "size": 1194,
+        "sha256": "09d45ec41debf628efd005dbd354dbdc700689df60c72aab88f1fe7ab8e3e011"
+      },
+      {
+        "path": "payload/webapps/webroot/css/templates.912dbab7.css",
+        "size": 43,
+        "sha256": "912dbab746f91bb08a6d15d5d9447048081c11374df4992f6b9c88210b874869"
+      },
+      {
+        "path": "payload/webapps/webroot/css/TencentSmsConfig.283c64de.css",
+        "size": 48,
+        "sha256": "283c64de7f1cf885ae7d19bbfb7fe50558429f2b2336116a72c90dcae8bb53e2"
+      },
+      {
+        "path": "payload/webapps/webroot/css/TestSmsModal.c9d0b2c2.css",
+        "size": 7740,
+        "sha256": "c9d0b2c28052b30b732a8f1a3b8ab5cfe4af0b9839dce67e2e2af51a48274369"
+      },
+      {
+        "path": "payload/webapps/webroot/css/tokens.a881c498.css",
+        "size": 43,
+        "sha256": "a881c4982623889b92d30dbaea990b793ce92d89f50070efd549af380a836ecf"
+      },
+      {
+        "path": "payload/webapps/webroot/css/upload.130e5eaa.css",
+        "size": 12501,
+        "sha256": "130e5eaa5d38a065f517ef52ea45d7ebe3b693a895406e2011bb2a30f4252bd5"
+      },
+      {
+        "path": "payload/webapps/webroot/css/upload.9fdc74a5.css",
+        "size": 965,
+        "sha256": "9fdc74a5ae206dc294e4efbdbef0b76bd178147f9396d40e829be7851cd492b0"
+      },
+      {
+        "path": "payload/webapps/webroot/css/version-manager.e46d5923.css",
+        "size": 126,
+        "sha256": "e46d592322ca9f00978db0d49bc4b1201abfcf725c55f742debd0169742d034b"
+      },
+      {
+        "path": "payload/webapps/webroot/css/wechatopen.b56b0869.css",
+        "size": 120,
+        "sha256": "b56b0869487edcf17989a05f062245d64d7684f30e9426be51a2765db869ee5f"
+      },
+      {
+        "path": "payload/webapps/webroot/css/wechatpay.a0ee57be.css",
+        "size": 812,
+        "sha256": "a0ee57befd1df8ae22d01f6b2706f00c0bd0bd3e5fd68092e850e068ade756e4"
+      },
+      {
+        "path": "payload/webapps/webroot/css/wechatrobot.fad38f9c.css",
+        "size": 43,
+        "sha256": "fad38f9c3d45e1c61079c30ebe32b93d1a50fcbf9663279c9d180bd27d8b3cf4"
+      },
+      {
+        "path": "payload/webapps/webroot/css/workflower.ac70e0bf.css",
+        "size": 43,
+        "sha256": "ac70e0bf261b870d492735eab55b874e77d061783e8ed5a714dff02874c07d9d"
+      },
+      {
+        "path": "payload/webapps/webroot/css/YdSmsConfig.f544905e.css",
+        "size": 48,
+        "sha256": "f544905e9e4a5b2fc570f1f505101078f2db2a82634074e5a342fdcb367b4bb9"
+      },
+      {
+        "path": "payload/webapps/webroot/fontawesome7.1/css/all.min.css",
+        "size": 74328,
+        "sha256": "0a291d6c2da2a5960c9c9110b5b4f4c5008a3de30d306abcd0d9cb42495cd619"
+      },
+      {
+        "path": "payload/webapps/webroot/fontawesome7.1/webfonts/fa-brands-400.woff2",
+        "size": 101180,
+        "sha256": "34ce05b1507e4f0f9d3108eb397855d72fbc8cfad6fb93ae8af1716fb312f59e"
+      },
+      {
+        "path": "payload/webapps/webroot/fontawesome7.1/webfonts/fa-regular-400.woff2",
+        "size": 19000,
+        "sha256": "a4b951c0f582686a6b73f4e0ec29dbd7437daa7e26a512d8015b74d9ec798ea6"
+      },
+      {
+        "path": "payload/webapps/webroot/fontawesome7.1/webfonts/fa-solid-900.woff2",
+        "size": 113260,
+        "sha256": "ff6d96ef6f1b29124a8daa657809d480d7278401ab16320fdb3edf0b658d6492"
+      },
+      {
+        "path": "payload/webapps/webroot/fontawesome7.1/webfonts/fa-v4compatibility.woff2",
+        "size": 4056,
+        "sha256": "bf8814728ae830c49c1a424519737912526396d5b6ece2aecf2cbb919f10be10"
+      },
+      {
+        "path": "payload/webapps/webroot/index.html",
+        "size": 968,
+        "sha256": "ff60c5df5f7a410f31010eb665d789e7481ac4279fe0012066063c5a790b8a80"
+      },
+      {
+        "path": "payload/webapps/webroot/jpg/wechat.f54af73b.jpg",
+        "size": 128853,
+        "sha256": "93ec28ddebb6fa12ffab5499f768401404461595862a5527c66407b92930751c"
+      },
+      {
+        "path": "payload/webapps/webroot/js/403.449f3a7e.js",
+        "size": 2075,
+        "sha256": "eb9ebe6713f5efe7e90eaeed0d4d044c88e3449c92e55637dfc4cc166440d9f9"
+      },
+      {
+        "path": "payload/webapps/webroot/js/Add.2d58e162.js",
+        "size": 546,
+        "sha256": "63cf8d29da114419b7c48da6eaa461e73b11bc71973679eab2fd4f2b6c91b9b9"
+      },
+      {
+        "path": "payload/webapps/webroot/js/add.372569a9.js",
+        "size": 5084,
+        "sha256": "b4611763381fda14e3d5bf0973e9496b947cb28bd064cda3926cf20b0e33a2c0"
+      },
+      {
+        "path": "payload/webapps/webroot/js/add.4856c190.js",
+        "size": 4072,
+        "sha256": "2c39933fb5afdc00a344c24d60446daeab2ac2a765fd41ec5e0bb000c1931a7d"
+      },
+      {
+        "path": "payload/webapps/webroot/js/add.4f48915c.js",
+        "size": 319308,
+        "sha256": "2a9b8c53ab0254ce124efab9caaa516f250b887f8bbb7f1aab118c4d22210bfc"
+      },
+      {
+        "path": "payload/webapps/webroot/js/add.6f1c689a.js",
+        "size": 9123,
+        "sha256": "93cf94506551d677f0a0b8f1e1881bd179e04abf02f43ef79ee306db30912ecb"
+      },
+      {
+        "path": "payload/webapps/webroot/js/add.9d932b81.js",
+        "size": 3541,
+        "sha256": "f775074189d212343c8076e765c22e671b2ea5eb6ecd63faf26b48e637c3cffe"
+      },
+      {
+        "path": "payload/webapps/webroot/js/add.a7575f25.js",
+        "size": 5251,
+        "sha256": "4bf7800bc39ca08824c20fcd76b841afce3ffef9e46a76c96d0ac09d9ef0396f"
+      },
+      {
+        "path": "payload/webapps/webroot/js/add.bddbbe6b.js",
+        "size": 3535,
+        "sha256": "d9558ef57e4d4f3766b5c643b8e476f39fafb8202c769354bd63175b2cb85f2a"
+      },
+      {
+        "path": "payload/webapps/webroot/js/AddCircle.9bc2aff1.js",
+        "size": 505,
+        "sha256": "71ce177951b9448283328b91f840e4e494cf70368f31de85c6263261ed7de377"
+      },
+      {
+        "path": "payload/webapps/webroot/js/AddCircleOutline.9739b381.js",
+        "size": 737,
+        "sha256": "87cbede0d120f240a9e19baa1e4e8a12c80206c6e68a3957908217c1d83654ff"
+      },
+      {
+        "path": "payload/webapps/webroot/js/addOrg.bc536b44.js",
+        "size": 3320,
+        "sha256": "7251b2aefa17b9d53ff07464b21fda925588285a078081b0c68f7377f8ba9951"
+      },
+      {
+        "path": "payload/webapps/webroot/js/addrole.aa454c7a.js",
+        "size": 2259,
+        "sha256": "3289e20dc4a6ee112d0eca4abccefe54633d315842f8b1c7730e67ada46f508d"
+      },
+      {
+        "path": "payload/webapps/webroot/js/AIChatRobot.d527cf14.js",
+        "size": 14736,
+        "sha256": "98fb4d977ab8c9d0c6b1a60a278fe9225a62f185c9acf56bb5ada10346ef8626"
+      },
+      {
+        "path": "payload/webapps/webroot/js/aieditor-core.3b2c0113.js",
+        "size": 1786105,
+        "sha256": "c9ed1b815b519a7f883d360ced5b38eb2b93fd52a6fde91c940785261ad16500"
+      },
+      {
+        "path": "payload/webapps/webroot/js/AliyunSmsConfig.73ad615f.js",
+        "size": 4799,
+        "sha256": "2967500db0c5e437582be251a0c874084cb767f698d5b709c6fabbebf0c22688"
+      },
+      {
+        "path": "payload/webapps/webroot/js/app-config.3590e5f6.js",
+        "size": 591,
+        "sha256": "2f587275e66b35322ff124b51f0da5a818687ad7ec7e71a3465eedfa9048f586"
+      },
+      {
+        "path": "payload/webapps/webroot/js/app-config.f1c20c46.js",
+        "size": 7656,
+        "sha256": "544c37d3c7e68ba2bafb39f69719affbef8bbe7b26783b5fa54ed5280e6c6143"
+      },
+      {
+        "path": "payload/webapps/webroot/js/ArchiveOutline.81500eea.js",
+        "size": 921,
+        "sha256": "7b4cb6c8f0ea3065ae452d18e7d75c78b5d3f26929c707941082abc247808e46"
+      },
+      {
+        "path": "payload/webapps/webroot/js/ArrowBack.1cafe85b.js",
+        "size": 564,
+        "sha256": "248cfc5dd8b37da598d3be48b16eac4b954df827c674764593b285ca6eb4caba"
+      },
+      {
+        "path": "payload/webapps/webroot/js/attache.e5af37fb.js",
+        "size": 317,
+        "sha256": "b705b30031d9f9287ec58f711d5a617eef1a0121f3947fe7939f921db8b3322a"
+      },
+      {
+        "path": "payload/webapps/webroot/js/BaiduSmsConfig.ecda0dc8.js",
+        "size": 4976,
+        "sha256": "446d94fbb4fd177cacf437becff6d70c116839a6dec45abda66808e53c309096"
+      },
+      {
+        "path": "payload/webapps/webroot/js/BanOutline.609d6fb5.js",
+        "size": 528,
+        "sha256": "d6b4298de548d0194edea63ba97c75c475f26ea27750162d363da0d8263d1a3f"
+      },
+      {
+        "path": "payload/webapps/webroot/js/base.d8ab6f73.js",
+        "size": 28075,
+        "sha256": "e00ed571e896c05ff0f167845bf4434f566170362b216c563ae6d812cd89be3f"
+      },
+      {
+        "path": "payload/webapps/webroot/js/bindwechat.75f29c09.js",
+        "size": 3392,
+        "sha256": "3b7f28d944cb4cfb38d55ddd1d8935d829080a55bd8783e6eb1f3ca3b29b1a15"
+      },
+      {
+        "path": "payload/webapps/webroot/js/BusinessOutline.7c2f0ac4.js",
+        "size": 2709,
+        "sha256": "fc99dbcb7216dea2e340e254907f86ecef599e9f16b873d75e5c28c1e98fa1df"
+      },
+      {
+        "path": "payload/webapps/webroot/js/certsfind.613be310.js",
+        "size": 944,
+        "sha256": "38fa35de7a928149804953688dfb142a07b29875975a2b47a01b792f6ac6ea37"
+      },
+      {
+        "path": "payload/webapps/webroot/js/ChangePasswordModal.b7e23cf7.js",
+        "size": 6256,
+        "sha256": "4c9dc728ad0315cac7b63a95ef77edb87cd4dfd4c8da8e26a119b6700b4aac3d"
+      },
+      {
+        "path": "payload/webapps/webroot/js/Checkmark.6085e8d4.js",
+        "size": 421,
+        "sha256": "a795b7a0cdd9059a36685e51643953914a0f747bd6cb1ff2ba2bb095fff364c0"
+      },
+      {
+        "path": "payload/webapps/webroot/js/CheckmarkCircleOutline.a8262c85.js",
+        "size": 615,
+        "sha256": "879acc3d7f786b22bc264d98d2399fe94f0b7d4845b5efd13645cc7ad9307f13"
+      },
+      {
+        "path": "payload/webapps/webroot/js/ChevronDownOutline.f91683ae.js",
+        "size": 431,
+        "sha256": "7f051b852eaf6ced4115e387b52ab79ba402be9afc3f253ff14c53e7ceafb9ac"
+      },
+      {
+        "path": "payload/webapps/webroot/js/Close.b585ed27.js",
+        "size": 440,
+        "sha256": "55f539f556e5497eec1b196eed12344b98f8d5f42c007e2c6df4446d5f30f83d"
+      },
+      {
+        "path": "payload/webapps/webroot/js/CloseCircleOutline.43aeaa23.js",
+        "size": 747,
+        "sha256": "77062b51aaa3f3713e7fa40f10955e1e07112eab38d2abfcfc02dd4e472fbe5e"
+      },
+      {
+        "path": "payload/webapps/webroot/js/CloudOutline.aba9006c.js",
+        "size": 530,
+        "sha256": "bbeb7267f8a84136eee89aa6800a4e42c9e015a3cce04032acfbd1e5a726155a"
+      },
+      {
+        "path": "payload/webapps/webroot/js/CloudUploadOutline.6adb7363.js",
+        "size": 875,
+        "sha256": "9f6b6cfadbeebffc7e394938e337d90416a1a5ea567b6667c079628193c948d3"
+      },
+      {
+        "path": "payload/webapps/webroot/js/codemirror-core.99a43118.js",
+        "size": 375979,
+        "sha256": "c44afe50e17a92ca01f1b06f9e4b50395e49cc2b74ca0a5a3e533e2ed23561af"
+      },
+      {
+        "path": "payload/webapps/webroot/js/codemirror-vendor.817c512a.js",
+        "size": 409,
+        "sha256": "896235a70fecbff3bdb456e73020c5e352f780f0d5e100733e1935593558a679"
+      },
+      {
+        "path": "payload/webapps/webroot/js/company.dd7836d3.js",
+        "size": 914,
+        "sha256": "3868b89022b0a42e4e6ee81e8198df211844a2a3733f75cd9160557fff03c8e8"
+      },
+      {
+        "path": "payload/webapps/webroot/js/config.f4a73f1d.js",
+        "size": 1962,
+        "sha256": "c826c81435279b39a0928049a485e59b0b7778d4ed44280e66801bafa5681fc4"
+      },
+      {
+        "path": "payload/webapps/webroot/js/copyright.75858934.js",
+        "size": 491,
+        "sha256": "830eb6d0bf60eba273550f147487c3446823513a0a70fa2678f978154614648d"
+      },
+      {
+        "path": "payload/webapps/webroot/js/CustomSidebarMenu.020749c5.js",
+        "size": 3257,
+        "sha256": "3c2f969ef504f03dc0bba35d3c3caae5e82bb275582b32c1be879ead3f398cbb"
+      },
+      {
+        "path": "payload/webapps/webroot/js/default.9e4c64ce.js",
+        "size": 64823,
+        "sha256": "e11076dea0f15529494989f88afdae4fb437d5a89c2ca1176b4a5f5335987d9c"
+      },
+      {
+        "path": "payload/webapps/webroot/js/default.a56ea076.js",
+        "size": 33114,
+        "sha256": "b921f5ac362c92dcaa5f434778030919ae7fc96df7e828ec46945f758b437401"
+      },
+      {
+        "path": "payload/webapps/webroot/js/detail.747040e6.js",
+        "size": 2594,
+        "sha256": "9051077fcb6ab9bb1118d27e25bb1e4575848d8f440c9def6c145bca110c3c19"
+      },
+      {
+        "path": "payload/webapps/webroot/js/detail.8ffce382.js",
+        "size": 3056,
+        "sha256": "b7964602c8547fce4f274b070f21024334783f0e33ae05f43656a6a8e9c507bb"
+      },
+      {
+        "path": "payload/webapps/webroot/js/dict.a1a5b0a6.js",
+        "size": 823,
+        "sha256": "74fb458aff7cc85fcde9acad539d1d90f8817cf36a27fb0be5a3762b943f8b9a"
+      },
+      {
+        "path": "payload/webapps/webroot/js/DocumentTextOutline.dd40afd9.js",
+        "size": 973,
+        "sha256": "68c1bdbdf934d6947afb95220690224ea4a38eb7cc05d5c67f67e344109719f0"
+      },
+      {
+        "path": "payload/webapps/webroot/js/DownloadOutline.a3b82228.js",
+        "size": 793,
+        "sha256": "2b777f39eabbab3ccb1b1cce9e961b3c091f3e4bcf6c6ef91a7cb0b48cc5ba4e"
+      },
+      {
+        "path": "payload/webapps/webroot/js/edit-templ.e17a414d.js",
+        "size": 1367,
+        "sha256": "2b29f00471fd8c8b0680b6416d49a512531ce9e7727b5f5ad3e437026080223a"
+      },
+      {
+        "path": "payload/webapps/webroot/js/edit.20d56743.js",
+        "size": 3658,
+        "sha256": "95282aec1199d130722aaaefce933b2620c173e1e77f7aa40ce435397f09002e"
+      },
+      {
+        "path": "payload/webapps/webroot/js/edit.20e22a90.js",
+        "size": 5605,
+        "sha256": "9f97ccf91500e630f84f681be5f076f98c58628c74653a1fedc3bdef2050ecb3"
+      },
+      {
+        "path": "payload/webapps/webroot/js/editPwd.39c43b40.js",
+        "size": 2264,
+        "sha256": "010d71e92426fe742964d6d25441e65989796cb02b5e0fbfbd72c732dcc853eb"
+      },
+      {
+        "path": "payload/webapps/webroot/js/EllipsisHorizontalOutline.c99ddd12.js",
+        "size": 661,
+        "sha256": "f80c82428729bc6cfcd8855acc389ceade1e07c53babf719dc33b03f773d4f33"
+      },
+      {
+        "path": "payload/webapps/webroot/js/email-template-manager.5a28ab70.js",
+        "size": 18279,
+        "sha256": "cdede3a511f0dfe9f3e8d5102b1e8e04dd3c385ac0074b7c6d9d7daba67dffcd"
+      },
+      {
+        "path": "payload/webapps/webroot/js/email.527de646.js",
+        "size": 1928,
+        "sha256": "303368e367f0439d56317498e3f40bcb85ecd107919b9cc2897a56b38fd05128"
+      },
+      {
+        "path": "payload/webapps/webroot/js/emailList.dbb3f91e.js",
+        "size": 23792,
+        "sha256": "c43a68286f9e9299d642f8d945e948d00f45ae63516d92c348f7a1cd07d8625c"
+      },
+      {
+        "path": "payload/webapps/webroot/js/emailLogin.6e0abff3.js",
+        "size": 4295,
+        "sha256": "47efe1df865b25248ed8705e628166031633468716396a654fbccae226bc3620"
+      },
+      {
+        "path": "payload/webapps/webroot/js/emailSend.a4143c85.js",
+        "size": 16604,
+        "sha256": "1251820c73b4194849c6ead96d9bba4925c14afcaadfed4414819c528737841e"
+      },
+      {
+        "path": "payload/webapps/webroot/js/emailTemplate.6f5a17af.js",
+        "size": 1145,
+        "sha256": "aa7c07ce146a626619b2f2f3bb23a2ad801e68cfb3f64c8a8bbc843ea3045a85"
+      },
+      {
+        "path": "payload/webapps/webroot/js/eq-avatar.7d742f91.js",
+        "size": 1892,
+        "sha256": "8d3d34c236c8982fc50d86d95241524202e530ea4a2e9fb22ddfcf3ddfe38553"
+      },
+      {
+        "path": "payload/webapps/webroot/js/eq-editpwd.5881e2c4.js",
+        "size": 2130,
+        "sha256": "1bcbc68cb6b43e7657777f0560f180f56112d7735ef764edabbe4069205bb629"
+      },
+      {
+        "path": "payload/webapps/webroot/js/eq-footer.ed80995b.js",
+        "size": 9971,
+        "sha256": "e881955ec0fd2906bc0e8d1af3e9f0e223dc400a8e45e25ff7fbf2cda4fc9880"
+      },
+      {
+        "path": "payload/webapps/webroot/js/eq-icon-library.7c201dd9.js",
+        "size": 714000,
+        "sha256": "5b031b31f0c01038f71ef87d6fb334f183d67bfb76e094869c622e37bff98726"
+      },
+      {
+        "path": "payload/webapps/webroot/js/EyeOutline.d44525ee.js",
+        "size": 724,
+        "sha256": "0a4ea4a5e384e915e0554cb2d04415b94907794c17e6042d80c97e036a39cb30"
+      },
+      {
+        "path": "payload/webapps/webroot/js/file-modified.ae0853a4.js",
+        "size": 15635,
+        "sha256": "cca32ccc27f67ec8859f271abf6a894ffc5259e77adc286eb8411eb5afcbeb6e"
+      },
+      {
+        "path": "payload/webapps/webroot/js/file.65b9fcce.js",
+        "size": 23743,
+        "sha256": "b45deaf72b3ec4630d2466d872cae90213b0eec74f036d3eeefc19e92a92c703"
+      },
+      {
+        "path": "payload/webapps/webroot/js/FileTrayFullOutline.01fccea5.js",
+        "size": 1162,
+        "sha256": "2e982c10558c1bd75412b326d7f4615e99d63e0c9fe1bc55c0abe3bddf590512"
+      },
+      {
+        "path": "payload/webapps/webroot/js/FileUpload.827c2599.js",
+        "size": 1917,
+        "sha256": "a72a89672333316de19758834ca995ca786011e8e7fbe5b47be43fed58b4e7aa"
+      },
+      {
+        "path": "payload/webapps/webroot/js/finished.874dabbd.js",
+        "size": 491,
+        "sha256": "246360d4878ed2e207de29c66c5f1a600d615988c69765bc9d29271ab037eb7d"
+      },
+      {
+        "path": "payload/webapps/webroot/js/GlobalDrawer.920e341b.js",
+        "size": 2143,
+        "sha256": "5c5cb27cb4c217713cebe336014aa88605b864d13d2f7595f8117dc3b0106942"
+      },
+      {
+        "path": "payload/webapps/webroot/js/GlobalTable.ed66de3b.js",
+        "size": 3996,
+        "sha256": "55bc0cb8e3a391ee01108d5681f4f2d169a0ac38d729827be9e11872b4ba1f4a"
+      },
+      {
+        "path": "payload/webapps/webroot/js/health-monitor.8582a176.js",
+        "size": 7919,
+        "sha256": "9729583937dd80b3ee27bf462e4a7ca1f8d344e82698a245b1ba7729a2d60276"
+      },
+      {
+        "path": "payload/webapps/webroot/js/HelpCircleOutline.28f5e573.js",
+        "size": 800,
+        "sha256": "df77cc7ed3f06b7b5aec469c663f463e78ac6487e13b5929f1d337fcda2386e2"
+      },
+      {
+        "path": "payload/webapps/webroot/js/Home.47721b4b.js",
+        "size": 880,
+        "sha256": "5436083a230fbd69cc931921249f0e5fdfe25460a454e68420c15243b4b5e4e6"
+      },
+      {
+        "path": "payload/webapps/webroot/js/icon-drawer.685cf2d6.js",
+        "size": 4201,
+        "sha256": "25ef98f814ff887bbbd4d187ecd29bf7f2aa8a5e2e30a1d22a80364ae664c45e"
+      },
+      {
+        "path": "payload/webapps/webroot/js/icon-library.272fde2f.js",
+        "size": 5289,
+        "sha256": "189d24ed0d7cdcbd340129eb6b4aa4af3c7c3efab25b702ce26f87fad15cdb82"
+      },
+      {
+        "path": "payload/webapps/webroot/js/iflow.2051cb49.js",
+        "size": 16381,
+        "sha256": "c9b543add512dd607df0969cd3cbc26c161a69a3db7143c3e194a32f1703c3b5"
+      },
+      {
+        "path": "payload/webapps/webroot/js/IframeLoader.2068746f.js",
+        "size": 598,
+        "sha256": "9cc2a8b28b8435b0b766f9bed4d4fe90a5b3cc553213a5d598685fcda6ce3ad8"
+      },
+      {
+        "path": "payload/webapps/webroot/js/index.0092bc4e.js",
+        "size": 196306,
+        "sha256": "a529fdbab6f808b64e76c72749315039fda2c336ee736cf93d516ce3fe699707"
+      },
+      {
+        "path": "payload/webapps/webroot/js/index.54c000c1.js",
+        "size": 31538,
+        "sha256": "456ee8e807bed065818abed5c3f5ec3c17b76256082c6a9a92e7977cf7f8ed7a"
+      },
+      {
+        "path": "payload/webapps/webroot/js/index.615f8529.js",
+        "size": 12695,
+        "sha256": "758c71a651e80f27c0e2568a53b3d3cb7656e2fb0dc326cc28e272d44231347a"
+      },
+      {
+        "path": "payload/webapps/webroot/js/index.821f6a66.js",
+        "size": 12764,
+        "sha256": "c6e61e26589002a18fc623e49bd4bed826ffe68ea290d14faf21f13938f19669"
+      },
+      {
+        "path": "payload/webapps/webroot/js/index.8c342a6e.js",
+        "size": 1033749,
+        "sha256": "f15f12b79245ab5d536369b3a114d837a8cd29f74ea1dc807a18310b996aa9df"
+      },
+      {
+        "path": "payload/webapps/webroot/js/index.e48f0792.js",
+        "size": 8032,
+        "sha256": "5c2b3a9cddd54d35c77828b195b69ef0625049bc58d48f34f876253d3620dc78"
+      },
+      {
+        "path": "payload/webapps/webroot/js/ipBlockList.c0964834.js",
+        "size": 16198,
+        "sha256": "84f5a9d51b9c178016f89703c83d6d92fac987a8dc85c23bc375e5870fa0f84c"
+      },
+      {
+        "path": "payload/webapps/webroot/js/JdSmsConfig.0f744d09.js",
+        "size": 4504,
+        "sha256": "727dcb60feb7d3f4a1a43b8f782f1093252be1c1ff9341d60b970e9aaca83a08"
+      },
+      {
+        "path": "payload/webapps/webroot/js/KeyOutline.bed3eb2b.js",
+        "size": 923,
+        "sha256": "5ad49c10ea2ca629df01e0df05e812d4933e67c4a83611d5a8fa67b3c773b03d"
+      },
+      {
+        "path": "payload/webapps/webroot/js/LayersOutline.8bf803c0.js",
+        "size": 1568,
+        "sha256": "92769494989c88e3489a5427bcd77c3eb57efc92c49631689f92e8cd47e3f2f8"
+      },
+      {
+        "path": "payload/webapps/webroot/js/lezer-vendor.352f4c51.js",
+        "size": 131488,
+        "sha256": "479fd056c58db06a33f1b780102a2fad0d546f0e361f170731d2df34e508ca70"
+      },
+      {
+        "path": "payload/webapps/webroot/js/license.3414b291.js",
+        "size": 1115,
+        "sha256": "b8b9675cd6e0e65cee8f1c85cf6f927833c08107aa52dac215b9e3d8e876eae8"
+      },
+      {
+        "path": "payload/webapps/webroot/js/list.0151164f.js",
+        "size": 13704,
+        "sha256": "245ae235d4d7fa6706225e68be50ff2352fd00b06b6e593f6fe16974b939990d"
+      },
+      {
+        "path": "payload/webapps/webroot/js/list.2d7e17e7.js",
+        "size": 11622,
+        "sha256": "403e2a3f938332cb3c95cd7f7ab2dcc46eefffc54327ba0d49ef086f8bc90dae"
+      },
+      {
+        "path": "payload/webapps/webroot/js/list.30d042c9.js",
+        "size": 16949,
+        "sha256": "d74d049315295db7dbe2b0c12534ff74fcafdbcbde3978d1d00d3714e01eac52"
+      },
+      {
+        "path": "payload/webapps/webroot/js/list.31d83316.js",
+        "size": 21139,
+        "sha256": "0b37837e77fe1a2be7351fc1c1b7edfeef47d9d539da58b5219436ed2525aae8"
+      },
+      {
+        "path": "payload/webapps/webroot/js/list.3a04ef6a.js",
+        "size": 10262,
+        "sha256": "318b924b2987a3dba5102a748e97ac47b796497ae387d7fbd8e8c9d2b77573e6"
+      },
+      {
+        "path": "payload/webapps/webroot/js/list.3b2c4ab1.js",
+        "size": 643,
+        "sha256": "1fcc06d04903bc2baf11a0bef6462253327bbadfadc9fdb03cc0469d3f97e348"
+      },
+      {
+        "path": "payload/webapps/webroot/js/list.56f0b32a.js",
+        "size": 3544,
+        "sha256": "be0e5d83cd085b5ef10d5156389fdaa8d988d2e77a165f0a0d4ad58b04b26ce1"
+      },
+      {
+        "path": "payload/webapps/webroot/js/list.57c2bc60.js",
+        "size": 18367,
+        "sha256": "cb9ced481b5aa37e554be94a818fd51bf43fb836d181eeb0252f6350262f1d07"
+      },
+      {
+        "path": "payload/webapps/webroot/js/list.7cb7343d.js",
+        "size": 12613,
+        "sha256": "46763a370f92349745e3c5f791352d20f12c98b61581883d39e0326d2620642e"
+      },
+      {
+        "path": "payload/webapps/webroot/js/list.bedcb916.js",
+        "size": 4538,
+        "sha256": "aa42165bd899c91b37d59cec1002a3c7ebb79df43a9b2155e475251d2d58d1c0"
+      },
+      {
+        "path": "payload/webapps/webroot/js/list.f79f3abe.js",
+        "size": 21348,
+        "sha256": "68be437af01220ea614413089dbb06b53b570add3f432df6e724b3954e3fbd75"
+      },
+      {
+        "path": "payload/webapps/webroot/js/list.fc084802.js",
+        "size": 19994,
+        "sha256": "30761fe95f7d739eeb74dd7cfacbb579e5b0b73a7128e016a83906902e52bf7e"
+      },
+      {
+        "path": "payload/webapps/webroot/js/ListPageTemplate.a5294918.js",
+        "size": 7520,
+        "sha256": "b9ee8897177e0a1eda2bf94addf96ac6928e6d9796a23979871633ac41c0e349"
+      },
+      {
+        "path": "payload/webapps/webroot/js/lock-manager.6925d415.js",
+        "size": 7013,
+        "sha256": "9628e46dd29cb1ba4a4b7ce61235faddd5202ecadf3a7f01bd7459d38d81c5be"
+      },
+      {
+        "path": "payload/webapps/webroot/js/LogoWechat.4d9fb979.js",
+        "size": 2122,
+        "sha256": "4334c88d795c867482d27ac0d8574082fe2c709fb33fa2c90de20392ce387493"
+      },
+      {
+        "path": "payload/webapps/webroot/js/machine.1b478c5e.js",
+        "size": 31272,
+        "sha256": "e34fb94dec8e24f7f66be520dc9fe755f17b2ffc545d068aa8e54bd71d3a274b"
+      },
+      {
+        "path": "payload/webapps/webroot/js/MailOutline.69d197b4.js",
+        "size": 604,
+        "sha256": "e1ef770ddbba7239ecfa40f46c3e0a8dc5748fdaf58dbf0ceb41cfa5d71c5fef"
+      },
+      {
+        "path": "payload/webapps/webroot/js/manager.03ccb145.js",
+        "size": 15543,
+        "sha256": "d2e52a5ff6e652bfef8caf94410c7c9c3f8e978c6166514775804545d4cea5e1"
+      },
+      {
+        "path": "payload/webapps/webroot/js/manager.5221bc4c.js",
+        "size": 556,
+        "sha256": "fa2d435759c70ee4d5a5edf9612dbf3f8596f33f408c353010785cdac34f8f5c"
+      },
+      {
+        "path": "payload/webapps/webroot/js/manager.ccce3440.js",
+        "size": 737,
+        "sha256": "2a6509d6d5fa4455ae0a2834e8b52c9f84818c911b4598b008d64f69384c6d6a"
+      },
+      {
+        "path": "payload/webapps/webroot/js/menu.931112db.js",
+        "size": 3611,
+        "sha256": "ea5f5447f1b198e80acf9501ad7d97d0769b41d0fe7573d0da6c1bad9b1a6f0c"
+      },
+      {
+        "path": "payload/webapps/webroot/js/MessageDrawer.9a597656.js",
+        "size": 7546,
+        "sha256": "fc0b25d1dde8d3a003afe9f27fe34f4dcb56b7c87131d3a349f53f4b7cf04dd6"
+      },
+      {
+        "path": "payload/webapps/webroot/js/micro-app-api.0835c9dc.js",
+        "size": 7935,
+        "sha256": "2dd41c16ffaddf736de54d6cfe88a9ba43138179a2c3e3574c7265cce01cd4c7"
+      },
+      {
+        "path": "payload/webapps/webroot/js/micro-app.ad9c4782.js",
+        "size": 114918,
+        "sha256": "793d5a7259b768f2aa1390c22856b6e2bfe09b54a625c88379d9f2cf50ed9e4a"
+      },
+      {
+        "path": "payload/webapps/webroot/js/microapp.97f82d8c.js",
+        "size": 722,
+        "sha256": "f8edf0f8180b9827d46a9fc48fcea3b4f47d02e7f8440fb8c4e2539385d4f5f3"
+      },
+      {
+        "path": "payload/webapps/webroot/js/microappConfig.411e85b6.js",
+        "size": 291,
+        "sha256": "8136cd6a93b1892c9bbcfae33da6641b7904c6ae05d2c67f6080f10410b899da"
+      },
+      {
+        "path": "payload/webapps/webroot/js/MicroAppManager.99a03fa2.js",
+        "size": 5228,
+        "sha256": "560eefc1259bf6bdbc8fdefd374952c2dfb249282272a8e5e07d8fc8d0229cf6"
+      },
+      {
+        "path": "payload/webapps/webroot/js/monitor.1952acee.js",
+        "size": 263,
+        "sha256": "6326fe9f4bd9e958d199da85c8d39e6aad4032b3d53dd8ff5daf7e30606fec58"
+      },
+      {
+        "path": "payload/webapps/webroot/js/naive-ui.51c6f54e.js",
+        "size": 1318681,
+        "sha256": "2cc32be02531d026e4cd1a662381e36b2ff7be95ab4231ccac83aacc0309583c"
+      },
+      {
+        "path": "payload/webapps/webroot/js/nginx.568580f6.js",
+        "size": 12457,
+        "sha256": "4c2b34164ab3d00604d97f45e9dfb480d40e4e17334346e3d8e7a0ddbe0b108e"
+      },
+      {
+        "path": "payload/webapps/webroot/js/notice.7d402c6e.js",
+        "size": 1159,
+        "sha256": "c6f5dc4329efc83c85f45d1b44a4e2c755767f19d575da512c142fb3b63a251a"
+      },
+      {
+        "path": "payload/webapps/webroot/js/Notifications.dde95f56.js",
+        "size": 919,
+        "sha256": "d1a0f59a8f75c56e3bc5fd3fbe8ffc98538ecd3bc42680f9ac45e4202fbb9403"
+      },
+      {
+        "path": "payload/webapps/webroot/js/orderList.67ffc85d.js",
+        "size": 2652,
+        "sha256": "2853ac5305a9134eed8792991430b6a3b5fbfa9bb75fe1efbe58cfe5d11650c5"
+      },
+      {
+        "path": "payload/webapps/webroot/js/OrganizationDetail.a4e8b479.js",
+        "size": 5458,
+        "sha256": "5a8a7ffbcc2c08d4989548b3aa0ea4e8a68ca1d4394e5494c5ebf44ed7b13536"
+      },
+      {
+        "path": "payload/webapps/webroot/js/OrganizationForm.f353f4d2.js",
+        "size": 7533,
+        "sha256": "fb2b770f2117066f7c06ce8f13330dcd4dd100daed9d5fa1513aa010a3c9a044"
+      },
+      {
+        "path": "payload/webapps/webroot/js/OrganizationTree.ebd783d4.js",
+        "size": 5983,
+        "sha256": "c036724c82b3bd399def5dcefc13ecfa67a704687dcc92d869758f5d003be7e0"
+      },
+      {
+        "path": "payload/webapps/webroot/js/ossConfig.733ff2d1.js",
+        "size": 968,
+        "sha256": "0c18dbe5d71b3b8771192917514973e50c075318259b69c72672c0f02c406540"
+      },
+      {
+        "path": "payload/webapps/webroot/js/p-aieditor.1f3a3b74.js",
+        "size": 3514,
+        "sha256": "f423616ea61dcf7b79c933dc546693a21cd5adaae0e4588001b6cb40e3efd947"
+      },
+      {
+        "path": "payload/webapps/webroot/js/p-aieditor.ae8c9de3.js",
+        "size": 3514,
+        "sha256": "69f2fa56d43fc63dfd3d465c9d310e87ac8096c13b2216b4de9d2db863cbe7cd"
+      },
+      {
+        "path": "payload/webapps/webroot/js/PaginatedTable.b3c1e7d6.js",
+        "size": 10699,
+        "sha256": "8b598a17561b6f918912a5f7061f4f554da5232ef146689bfd83f3af140c7c67"
+      },
+      {
+        "path": "payload/webapps/webroot/js/password-policy.30475e3e.js",
+        "size": 408,
+        "sha256": "c22215cc32f0500176910a6d1d1f5ca19db3d26e7b8abad77b841444834632a3"
+      },
+      {
+        "path": "payload/webapps/webroot/js/PeopleOutline.592dd0c1.js",
+        "size": 2031,
+        "sha256": "9d69b1faceeb3ebf972467bf1017a8dbcf00f3c661b8a832b28704fc91910fd0"
+      },
+      {
+        "path": "payload/webapps/webroot/js/perms.64c5c1fd.js",
+        "size": 17791,
+        "sha256": "eb39ea9f689a428e4318261846ec47ab8b9108bf7f70551eafd8c059bf13db37"
+      },
+      {
+        "path": "payload/webapps/webroot/js/PersonAddOutline.009725db.js",
+        "size": 1001,
+        "sha256": "3abe0259f01db8cf279de9fed90aee5b09e0aa1b5003bee9bf6710a9e58411ad"
+      },
+      {
+        "path": "payload/webapps/webroot/js/PersonOutline.2859939c.js",
+        "size": 716,
+        "sha256": "c66841e5225100e592163a5ab0eeaf2f00298e5dff5e45bd2bf32a2195a5a793"
+      },
+      {
+        "path": "payload/webapps/webroot/js/phoneLogin.18635178.js",
+        "size": 4053,
+        "sha256": "bce9b1b9d02635632eac7a53870f4fb376742fb16596d2643a3d86035ca8ada2"
+      },
+      {
+        "path": "payload/webapps/webroot/js/PhonePortrait.fe604653.js",
+        "size": 2761,
+        "sha256": "3d163b3edadd68bd8fa60848e41811737d8e2637aab6b1c85dc88fa96fee7609"
+      },
+      {
+        "path": "payload/webapps/webroot/js/profile.c64cabc2.js",
+        "size": 11443,
+        "sha256": "4ba19890aab53757d1a87f9e8e71f956ab18579b27e565e024b9a549052bd27d"
+      },
+      {
+        "path": "payload/webapps/webroot/js/QiniuSmsConfig.ce0c5c62.js",
+        "size": 4105,
+        "sha256": "85afff25fd522137ea02701432e8aa4de2973aea9cef4f081a171162903f7fc1"
+      },
+      {
+        "path": "payload/webapps/webroot/js/RefreshOutline.f4294851.js",
+        "size": 597,
+        "sha256": "4ab6b11303f6ddf63ee07cb785578ea69333f108382227ae44dc7c052019cb08"
+      },
+      {
+        "path": "payload/webapps/webroot/js/ReloadOutline.d57ea6b7.js",
+        "size": 1679,
+        "sha256": "af6e9ec41a71b37f57832fa34c74727129957f3ebe984b3985520aaa0c2457b7"
+      },
+      {
+        "path": "payload/webapps/webroot/js/request.afe5b5c3.js",
+        "size": 14416,
+        "sha256": "fec87d391c1c9258cf2fa9ab98cd013b63ea02e516b064c2107b405b61f53738"
+      },
+      {
+        "path": "payload/webapps/webroot/js/Resize.adcc9099.js",
+        "size": 2166,
+        "sha256": "ab3fd43b585be752c22513ce81ab5a501a2ebedc8f80b3d984ad898ad97b2c82"
+      },
+      {
+        "path": "payload/webapps/webroot/js/role.5ac34f4d.js",
+        "size": 920,
+        "sha256": "b2cd13139451fd659bef38001723805e379cb601b3e2979d2e926706dd89c359"
+      },
+      {
+        "path": "payload/webapps/webroot/js/roleperm.e2a255bd.js",
+        "size": 6570,
+        "sha256": "4eb3ed3549acad83f3dd3a2837ded9deca99957a595516c471182127c71a904f"
+      },
+      {
+        "path": "payload/webapps/webroot/js/SaveOutline.e1ef716f.js",
+        "size": 714,
+        "sha256": "bf52bff4af6a12383bf5279ef5a78189f0c5ca6962054c0fcfd86484963ec196"
+      },
+      {
+        "path": "payload/webapps/webroot/js/sb.ff399deb.js",
+        "size": 597,
+        "sha256": "b0214df4dacb71bf9eefd2241fefe4db9c8898ae6ca8444b3f3869741ccf76cd"
+      },
+      {
+        "path": "payload/webapps/webroot/js/script-manager.351f23cd.js",
+        "size": 14937,
+        "sha256": "a6908fd04825c7890fa8f7a2246c916b4d67e503353a2f48cf3496ba83e6bc44"
+      },
+      {
+        "path": "payload/webapps/webroot/js/search.0b389345.js",
+        "size": 1871,
+        "sha256": "2f51aa199b17ae3486db8e57f4ad5bb2d7f03ddb78945ba1f59f13676c50d065"
+      },
+      {
+        "path": "payload/webapps/webroot/js/Search.b14d0b74.js",
+        "size": 593,
+        "sha256": "4c4834598260a10b15c02f419440565d0bc2ba508da61da7325af3643f48c99b"
+      },
+      {
+        "path": "payload/webapps/webroot/js/SearchOutline.2f636b1f.js",
+        "size": 600,
+        "sha256": "2691fe66dc991246209a323fc50952163f33f8151cb024f3f2784a34043b32ab"
+      },
+      {
+        "path": "payload/webapps/webroot/js/send.eb1e05d9.js",
+        "size": 22914,
+        "sha256": "8e702bcfd9e342d06e21b3e739ea6f26e882893b2e1a15fdcfbc0016bb1920dc"
+      },
+      {
+        "path": "payload/webapps/webroot/js/SendOutline.1a2c23ae.js",
+        "size": 611,
+        "sha256": "59607444661128a9fa1da6b2319dd091b9eded081a6a6fdfc79a84af98eb8bc3"
+      },
+      {
+        "path": "payload/webapps/webroot/js/ServerOutline.4ef12e9c.js",
+        "size": 5419,
+        "sha256": "cc742b3f3804a09fd465b7816141372edb0aa3edc60fe5b6478e7eaf3b4694d2"
+      },
+      {
+        "path": "payload/webapps/webroot/js/Settings.57ee330f.js",
+        "size": 5328,
+        "sha256": "74619e805147c06c40cd607231bda06fe9a7f72379e45bb0cbb1bcb6e53da491"
+      },
+      {
+        "path": "payload/webapps/webroot/js/settings.5bbe5baa.js",
+        "size": 5402,
+        "sha256": "3e27027a4098e1cc39ebe7903b1380e07698cb1ccd0b4405faf538df63a7dcf8"
+      },
+      {
+        "path": "payload/webapps/webroot/js/SettingsOutline.251b7d8c.js",
+        "size": 1523,
+        "sha256": "04d558ff7a35f85339534b002bc1669bd308d48bab3f5fc6b133cdf38ed3a19c"
+      },
+      {
+        "path": "payload/webapps/webroot/js/ShieldCheckmarkOutline.7f1100ef.js",
+        "size": 724,
+        "sha256": "3d28f13088e5bc503973e24cc51faf7db521dd10e07e27e1f57c541cba3e2753"
+      },
+      {
+        "path": "payload/webapps/webroot/js/SignatureManager.ca90063e.js",
+        "size": 8688,
+        "sha256": "7985a44fa681a3ec5ebd565553ece3d4826f9aa44c1ab5a7e6c013eddc2e5eca"
+      },
+      {
+        "path": "payload/webapps/webroot/js/SignatureModal.f0495326.js",
+        "size": 5684,
+        "sha256": "8105afabc9da642217ae5e515c7735def7c2a6f8b477e66c1ba08b9d227b9bfe"
+      },
+      {
+        "path": "payload/webapps/webroot/js/sms.06faf413.js",
+        "size": 6920,
+        "sha256": "e3e405c9e380da382b25e10296c1f4620be8c28acfeb319153a9fa6fb3f36105"
+      },
+      {
+        "path": "payload/webapps/webroot/js/SmsAppConfigModal.364a65e2.js",
+        "size": 12988,
+        "sha256": "03c8a4f66fe83ab374da8fc0de3a1d1d1ef591f3f594a6273c503169ba3a91fd"
+      },
+      {
+        "path": "payload/webapps/webroot/js/SmsTest.32d6dae3.js",
+        "size": 11874,
+        "sha256": "fc11e9f0ddf763a0f0d9315f1b4a8b355add9df466b9781743551eb6453685fa"
+      },
+      {
+        "path": "payload/webapps/webroot/js/software.5acc03ac.js",
+        "size": 898,
+        "sha256": "8766c674b655a6a04d0d36f13446f6d1dd9015e9f6424f13bd522d3f2b462e00"
+      },
+      {
+        "path": "payload/webapps/webroot/js/SparklesOutline.2f71c442.js",
+        "size": 2630,
+        "sha256": "f38c43f3fc3fbac0c727ec6a3a22cf139886525981b19cd5e02842e9e475be01"
+      },
+      {
+        "path": "payload/webapps/webroot/js/SquareOutline.036f3241.js",
+        "size": 1726,
+        "sha256": "d7da376618d12ec3bd377bfe59f915154c8c68cfd8cef2121d8cf3bfb7d1b636"
+      },
+      {
+        "path": "payload/webapps/webroot/js/ss.47e6dd2e.js",
+        "size": 600,
+        "sha256": "7bd0c7e8a327044b22bf5b29b856ecbf6b8a167d9483cc53c62e391496cf37f2"
+      },
+      {
+        "path": "payload/webapps/webroot/js/ssl.77e719d2.js",
+        "size": 13015,
+        "sha256": "31b0a6d48f2bbf918328eb61dd36ab40260ab4b7e66b21a0b5c486ca95062057"
+      },
+      {
+        "path": "payload/webapps/webroot/js/SvgIcon.ed504322.js",
+        "size": 388,
+        "sha256": "1b535ef01b979c4400231a93a9f1e95d52f56acd891e3096f05192fbec990932"
+      },
+      {
+        "path": "payload/webapps/webroot/js/SyncOutline.d72129c1.js",
+        "size": 5738,
+        "sha256": "0a0e5e201f9ab0b0d28354bec61a1522f088b168d428bfdac39ffdbedaf1a22d"
+      },
+      {
+        "path": "payload/webapps/webroot/js/task-manager.8d21715b.js",
+        "size": 27316,
+        "sha256": "0c8739a7711df1c4729364991368cf8321a1a577df2f099c667751186847018a"
+      },
+      {
+        "path": "payload/webapps/webroot/js/task.3b5dea4f.js",
+        "size": 7299,
+        "sha256": "9a4ff7c7ef38335fc82f8003e8dd05964e83436963f60e88f473c29ee41a1364"
+      },
+      {
+        "path": "payload/webapps/webroot/js/task.b0db3e80.js",
+        "size": 14097,
+        "sha256": "65becf81ce1554b29514da3b12bdd762382cc5de989158c96a58f069921d5d74"
+      },
+      {
+        "path": "payload/webapps/webroot/js/tasks.c0b76504.js",
+        "size": 1651,
+        "sha256": "4742bdc3449b49c11d30ea2a3538baec7ebef33bb88baebe6f0ab991ee1e2459"
+      },
+      {
+        "path": "payload/webapps/webroot/js/template-manager.9a8d109d.js",
+        "size": 3982,
+        "sha256": "c20711ba9a147c0be3d3ac5a4389f49c3e4438eee74d1eaf9173abe1d31b05df"
+      },
+      {
+        "path": "payload/webapps/webroot/js/template.7d2b9c20.js",
+        "size": 419,
+        "sha256": "c5433e8107cd1b5f6aa8ade3139db84ca376a743da72de76f57b74d139a4b681"
+      },
+      {
+        "path": "payload/webapps/webroot/js/template.f58f186e.js",
+        "size": 684,
+        "sha256": "60f2dc51e65a8c37962f0e14c5fe92babbbe9234b6d8a1c0794ebb71577f5c63"
+      },
+      {
+        "path": "payload/webapps/webroot/js/TemplateManager.fd052b00.js",
+        "size": 10521,
+        "sha256": "ee4a72d96b9276559d83ed6a5d6e890a2d2576de990f3426013d130dcbe68899"
+      },
+      {
+        "path": "payload/webapps/webroot/js/TemplateModal.0f8804cd.js",
+        "size": 5824,
+        "sha256": "2c8cc20f7b016ea13f8ce6414e48947c5de4017f5f164b7003d056ee751cf999"
+      },
+      {
+        "path": "payload/webapps/webroot/js/templates.45fd2e70.js",
+        "size": 896,
+        "sha256": "97a216c078051b14d683a0e1b42d888b99620126f009ba5b453ce889ef8ac20b"
+      },
+      {
+        "path": "payload/webapps/webroot/js/TencentSmsConfig.e7f7a34a.js",
+        "size": 4990,
+        "sha256": "965972ddcae8e66ad31e9d288b2dada8aa1e87e2f5dcaae062fe989b1d9f26eb"
+      },
+      {
+        "path": "payload/webapps/webroot/js/TestSmsModal.af6ed227.js",
+        "size": 9984,
+        "sha256": "66869a948d02fdaf7b85b8ce96fc90c04406d6cc05baaf3e84a38625de92309e"
+      },
+      {
+        "path": "payload/webapps/webroot/js/TimeOutline.f9c59e2c.js",
+        "size": 592,
+        "sha256": "2caa2f61f74ecd9f6d39e1e7e14b0ce0dc1a596bcbea4454915567ac0eb8e117"
+      },
+      {
+        "path": "payload/webapps/webroot/js/tokens.f86cd641.js",
+        "size": 556,
+        "sha256": "d6c9ca2141e59fa2a6bf5b88e78c9a7a881690bcef7f73557703a13b952530c7"
+      },
+      {
+        "path": "payload/webapps/webroot/js/TrashBinOutline.6329a7ba.js",
+        "size": 958,
+        "sha256": "acdff3f76d87d32c2f33895717f954dcc1de552618c1459c2fec0823e299e47c"
+      },
+      {
+        "path": "payload/webapps/webroot/js/TrashOutline.d2b3a117.js",
+        "size": 1186,
+        "sha256": "d0a280c51e0200705c3a1cbfe6ef9be244b41c8e19816365d7ec588410099763"
+      },
+      {
+        "path": "payload/webapps/webroot/js/update.421bdd88.js",
+        "size": 263,
+        "sha256": "20aeb8f43be1b3ed9b5ef66e2631f129e30b61818896a334bee157377f8d25f6"
+      },
+      {
+        "path": "payload/webapps/webroot/js/upload.538b7617.js",
+        "size": 28378,
+        "sha256": "2f97398bc62719241d95673f62d930a2c097c2b3e11fdc8feebe59cf8f12565c"
+      },
+      {
+        "path": "payload/webapps/webroot/js/upload.ad92d46f.js",
+        "size": 2600,
+        "sha256": "eb17120e8e37c479c6d3bfd3c34213ad3a21e53a46006cd8c4ab0471a8c35a76"
+      },
+      {
+        "path": "payload/webapps/webroot/js/user.5df348d8.js",
+        "size": 1281,
+        "sha256": "3191ef2c06c3726353240df300f2944295d295eb0dc2eae62a2338be34c22787"
+      },
+      {
+        "path": "payload/webapps/webroot/js/version-manager.37d274cf.js",
+        "size": 11658,
+        "sha256": "b601ffe58118a30e269187a05cc73e3769c094ba536b7a82a4a4442e7849e00e"
+      },
+      {
+        "path": "payload/webapps/webroot/js/vue-vendor.e03ecf2f.js",
+        "size": 122037,
+        "sha256": "526a640df41ca499c4692882a2e42008dc15e8224ed4dcc29e91489fe627a39d"
+      },
+      {
+        "path": "payload/webapps/webroot/js/wechatopen.9b763028.js",
+        "size": 2776,
+        "sha256": "9c859232fa954c33e60d3cc437e8060308bdcc9ca3412c82211d420a5bec5a25"
+      },
+      {
+        "path": "payload/webapps/webroot/js/wechatpay.8dbc1519.js",
+        "size": 17856,
+        "sha256": "cc571bf659665a52441c27a6da0abd9a25304f44e778c44a4390a1b6d02afa3b"
+      },
+      {
+        "path": "payload/webapps/webroot/js/wechatrobot.2d8c986c.js",
+        "size": 606,
+        "sha256": "e25c2724ad3eb4d678733691022a3fe0749ebfea52df1c46bdfc6ba5dbe2e296"
+      },
+      {
+        "path": "payload/webapps/webroot/js/wEditor.8de147ac.js",
+        "size": 728,
+        "sha256": "bdd9ae19dd8026dcb28669f715eda1cf147141a27d4aa2aeb7d8e48a54d30c9c"
+      },
+      {
+        "path": "payload/webapps/webroot/js/workflower.c98cdbfe.js",
+        "size": 582,
+        "sha256": "7e44833741b7644a1393c1eef5fa0425b40b566600a4755894c620f5378ac0cc"
+      },
+      {
+        "path": "payload/webapps/webroot/js/YdSmsConfig.a07ab288.js",
+        "size": 4624,
+        "sha256": "bb9273663f1bdd5f0570486d22f1fd10fc47f69785223db23f07ec0872fd119c"
+      },
+      {
+        "path": "payload/webapps/webroot/svg/favicon.dc3af4e1.svg",
+        "size": 265,
+        "sha256": "10f3f67da7fd6e3349ec1897cfd883b5a9b67bc04a0f94f986249dcfbbbe3973"
+      }
+    ],
+    "raw": [
+      {
+        "path": "raw/brick-bootkit-admin-raw.jar",
+        "size": 169902502,
+        "sha256": "33343f274a1b86acde4ef1238a6afce364d8fb4f3250eda889fbdd54f2b7bc7b"
+      }
+    ],
+    "windows": [
+      {
+        "path": "windows/NOT_BUILT_ON_THIS_OS.txt",
+        "size": 71,
+        "sha256": "ff65fa839b2469c73dbfc067a296c93d6a42997cf9c49a5ab77fa44ca2b4a242"
+      }
+    ]
+  }
+}

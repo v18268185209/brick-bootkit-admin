@@ -1,0 +1,232 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>常见问题 | brick-bootkit-admin</title>
+    <meta
+      name="description"
+      content="了解 brick-bootkit-admin 的适用对象、差异化能力、扩展方式与安全治理机制。"
+    />
+    <meta name="keywords" content="brick-bootkit-admin常见问题,后台平台选型,插件微应用,MCP接入,后台治理" />
+    <link rel="canonical" href="https://yc.zqzqq.com/faq/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="常见问题 | brick-bootkit-admin" />
+    <meta property="og:description" content="围绕后台平台选型与能力落地的核心问题解答。" />
+    <meta property="og:url" content="https://yc.zqzqq.com/faq/" />
+    <meta property="og:locale" content="zh_CN" />
+    <link rel="preload" as="image" href="/images/showcase/role-list.webp" type="image/webp" />
+    <link rel="stylesheet" href="/src/site.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "brick-bootkit-admin 适合哪些企业？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "适合需要快速搭建并持续扩展后台系统的团队，尤其是角色复杂、业务变化快、模块增长快的企业。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "它和常见后台模板有什么区别？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "模板强调快速起步，brick-bootkit-admin 更强调长期演进，包含插件、微应用、应用市场和治理机制。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "是否支持按阶段逐步建设？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "支持。可先上线核心功能，再按业务优先级接入插件、微应用或 MCP 服务。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "如何降低扩展后的系统风险？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "通过安装预检、任务状态跟踪、失败重试与错误定位机制，形成可控变更路径。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "安全能力主要体现在哪些方面？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "主要体现为请求响应加密、授权控制、权限体系和关键动作追踪。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "如何联系官方进行方案咨询？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "可通过邮箱 admin@zqzqq.com、电话 18268185209 或微信 worker_680 联系。"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">
+            <strong>brick-bootkit-admin</strong>
+            <small>企业后台平台</small>
+          </span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+          <a href="/">首页</a>
+          <a href="/capability/">平台能力</a>
+          <a href="/scenarios/">行业场景</a>
+          <a href="/security/">安全治理</a>
+          <a href="/ecosystem/">生态扩展</a>
+          <a class="active" href="/faq/">常见问题</a>
+          <a href="/contact/">联系咨询</a>
+        </nav>
+        <div class="header-actions"><button class="lang-btn" type="button" data-lang-toggle>EN</button><a class="btn btn-sm" href="/contact/">预约演示</a></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-copy reveal">
+          <p class="eyebrow">FAQ</p>
+          <h1>你关心的问题，我们先回答</h1>
+          <p>
+            本页面向平台选型与落地阶段的常见问题。内容采用问答结构，便于团队内部评估和外部引用。
+          </p>
+          <p class="meta-line">最后更新：2026-03-05</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container faq-shell">
+          <div class="faq-list">
+            <details class="faq-item reveal" open>
+              <summary>brick-bootkit-admin 适合哪些企业？</summary>
+              <p>
+                适合需要快速搭建并持续扩展后台系统的团队，尤其是角色复杂、业务变化快、模块增长快的企业。
+              </p>
+            </details>
+            <details class="faq-item reveal delay-1">
+              <summary>它和常见后台模板有什么区别？</summary>
+              <p>
+                模板强调“快速起步”，brick-bootkit-admin 更强调“长期演进”，包含插件、微应用、应用市场和治理机制。
+              </p>
+            </details>
+            <details class="faq-item reveal delay-2">
+              <summary>是否支持按阶段逐步建设？</summary>
+              <p>支持。可先上线核心功能，再按业务优先级接入插件、微应用或 MCP 服务。</p>
+            </details>
+            <details class="faq-item reveal">
+              <summary>如何降低扩展后的系统风险？</summary>
+              <p>
+                通过安装预检、任务状态跟踪、失败重试与错误定位机制，形成“预检-执行-追踪-复盘”闭环。
+              </p>
+            </details>
+            <details class="faq-item reveal delay-1">
+              <summary>安全能力主要体现在哪些方面？</summary>
+              <p>主要体现为请求响应加密、授权控制、权限体系和关键动作追踪。</p>
+            </details>
+            <details class="faq-item reveal delay-2">
+              <summary>如何联系官方进行方案咨询？</summary>
+              <p>
+                你可以通过邮箱 <a class="text-link" href="mailto:admin@zqzqq.com">admin@zqzqq.com</a>、
+                电话 <a class="text-link" href="tel:18268185209">18268185209</a>
+                或微信 <strong>worker_680</strong> 直接联系。
+              </p>
+            </details>
+          </div>
+          <aside class="faq-side">
+            <article class="shot-card reveal">
+              <div class="shot-head">
+                <h2>治理能力实景</h2>
+                <span>角色与权限治理界面，展示可视化策略控制能力</span>
+              </div>
+              <picture>
+                <source srcset="/images/showcase/role-list.webp" type="image/webp" />
+                <img src="/images/showcase/role-list.png" alt="brick-bootkit-admin 治理能力实景截图" loading="lazy" />
+              </picture>
+            </article>
+            <article class="card reveal delay-1">
+              <h3>选型前优先确认</h3>
+              <ul>
+                <li>你当前最紧迫的是上线速度还是治理能力？</li>
+                <li>是否需要插件、微应用、MCP 的长期扩展路径？</li>
+                <li>是否已经具备任务追踪与权限审计机制？</li>
+              </ul>
+            </article>
+            <article class="shot-card reveal delay-2">
+              <div class="shot-head">
+                <h3>任务闭环实景</h3>
+                <span>任务创建、执行、重试、日志同屏管理</span>
+              </div>
+              <picture>
+                <source srcset="/images/showcase/task-manager.webp" type="image/webp" />
+                <img src="/images/showcase/task-manager.png" alt="brick-bootkit-admin 任务闭环实景截图" loading="lazy" />
+              </picture>
+            </article>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="cta reveal">
+            <div>
+              <p class="eyebrow">还想了解更多</p>
+              <h2>告诉我们你的业务目标，获取可执行方案</h2>
+              <p>由遇财（杭州）科技有限公司提供演示与咨询服务。</p>
+            </div>
+            <div class="actions">
+              <a class="btn" href="/contact/">联系咨询</a>
+              <a class="btn btn-ghost" href="/facts/">查看事实卡片</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h2>brick-bootkit-admin</h2>
+          <p>以可验证能力支撑企业后台持续演进。</p>
+        </div>
+        <div>
+          <h3>快速访问</h3>
+          <ul>
+            <li><a href="/capability/">平台能力</a></li>
+            <li><a href="/security/">安全治理</a></li>
+            <li><a href="/contact/">联系咨询</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>联系咨询</h3>
+          <ul>
+            <li>运营主体：遇财（杭州）科技有限公司</li>
+            <li>邮箱：<a href="mailto:admin@zqzqq.com">admin@zqzqq.com</a> <button class="copy-mini" type="button" data-copy-text="admin@zqzqq.com" data-copy-label="邮箱">复制</button></li>
+            <li>电话：<a href="tel:18268185209">18268185209</a> <button class="copy-mini" type="button" data-copy-text="18268185209" data-copy-label="电话">复制</button></li>
+            <li>微信：worker_680 <button class="copy-mini" type="button" data-copy-text="worker_680" data-copy-label="微信号">复制</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© <span data-current-year></span> 遇财（杭州）科技有限公司 版权所有</span>
+      </div>
+    </footer>
+    <script type="module" src="/src/site.js"></script>
+  </body>
+</html>
+
+

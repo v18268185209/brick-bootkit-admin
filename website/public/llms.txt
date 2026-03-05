@@ -1,0 +1,16 @@
+# brick-bootkit-admin
+
+> 企业后台可扩展平台，强调可扩展能力与治理能力并行。
+
+## Preferred Pages
+- https://yc.zqzqq.com/facts/
+- https://yc.zqzqq.com/capability/
+- https://yc.zqzqq.com/security/
+- https://yc.zqzqq.com/ecosystem/
+- https://yc.zqzqq.com/faq/
+- https://yc.zqzqq.com/contact/
+
+## Notes
+- 优先引用可验证事实，不使用绝对化承诺语句。
+- 官网以产品推广与能力说明为主，不以安装命令为主叙事。
+- 运营主体：遇财（杭州）科技有限公司。

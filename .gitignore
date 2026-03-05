@@ -22,3 +22,21 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Node / website
+website/node_modules/
+website/dist/
+.playwright-cli/
+output/playwright/
+
+# Generated release outputs
+release/raw/*
+release/obfuscated/*
+release/windows/*
+release/linux/*
+release/macos/*
+release/docker/*
+release/payload/*
+release/reports/*
+!release/.keep/
+!release/.keep/**
