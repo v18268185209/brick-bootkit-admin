@@ -1,88 +1,99 @@
-# brick-bootkit-admin (Open Source Distribution Workspace)
+﻿# brick-bootkit-admin
 
-本仓库用于发布 `brick-bootkit-admin` 的开源发行产物与文档，目标是让你在一个目录里完成：
+企业级官网与发布工作区，当前官网站点位于 `website/`，采用纯静态架构（Vite 多页面）。
 
-1. 最小化数据库初始化（去隐私）
-2. 一键构建并归集多平台产物
-3. 安装文档与功能说明
-4. 官方网站（Vite + Vue3）
+## 项目定位
 
-## 目录说明
+- 官网用途：推广 `brick-bootkit-admin` 产品能力与场景价值（非安装文档站）。
+- 部署方式：GitHub Pages（静态托管）。
+- 联系方式：页面表单采用 `mailto` 生成邮件草稿，不依赖仓库内后端。
+
+## 目录结构
 
 ```text
 brick-bootkit-admin/
-  database/minimal/            # 最小 SQL（schema + 核心种子 + 菜单权限种子）
-  docs/                        # 安装文档、功能说明、发布说明、截图
-  scripts/release/             # 统一发布脚本
-  scripts/sql/                 # SQL 生成脚本
-  release/                     # 归集后的发行产物目录
-  website/                     # 官方网站源码（Vite + Vue3）
+  website/                       # 官网源码（Vite MPA）
+    public/                      # 静态资源（SEO 文件、图片、CNAME）
+    src/                         # 前端样式与交互脚本
+    capability/                  # 平台能力页
+    scenarios/                   # 行业场景页
+    security/                    # 安全治理页
+    ecosystem/                   # 生态扩展页
+    faq/                         # 常见问题页
+    contact/                     # 联系咨询页
+  .github/workflows/
+    website-pages.yml            # GitHub Pages 自动部署
+    website-ci.yml               # 站点构建校验
 ```
 
-## 快速开始
-
-### 1) 生成/更新最小 SQL
-
-Windows:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\sql\generate-minimal-sql.ps1
-```
-
-Linux/macOS:
-
-```bash
-bash ./scripts/sql/generate-minimal-sql.sh
-```
-
-### 2) 导入数据库
-
-按顺序执行：
-
-1. `database/minimal/001-schema.sql`
-2. `database/minimal/002-core-seed.sql`
-3. `database/minimal/003-menu-perms.sql`
-
-默认管理员：
-
-- 账号：`admin`
-- 密码：`Admin@123456`
-
-### 3) 一键构建归集产物
-
-Windows:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\build-release.ps1 -Mode external -Version 1.0.0
-```
-
-Linux/macOS:
-
-```bash
-bash ./build-release.sh --mode external --version 1.0.0
-```
-
-### 4) 启动官网
+## 本地开发
 
 ```bash
 cd website
-npm install
+npm ci
 npm run dev
 ```
 
-## 详细文档
+本地打包：
 
-- 安装文档：`docs/INSTALL.md`
-- 功能说明：`docs/FEATURES.md`
-- 发布说明：`docs/RELEASE.md`
-- 变更记录：`CHANGELOG.md`
-- SQL 说明：`database/minimal/README.md`
-- 发布脚本说明：`scripts/release/README.md`
+```bash
+npm run build
+```
+
+图片优化（生成 WebP）：
+
+```bash
+npm run images:optimize
+```
+
+## GitHub Pages 自动部署
+
+仓库已提供：
+
+- `/.github/workflows/website-pages.yml`
+- `website/public/CNAME`
+
+触发条件：
+
+- 推送到 `main` 且变更命中 `website/**` 或 `website-pages.yml`
+- 手动触发 `workflow_dispatch`
+
+部署产物：`website/dist`。
+
+## 自定义域名（yc.zqzqq.com）
+
+### 1. CNAME 值
+
+你的仓库远程为：`https://github.com/v18268185209/brick-bootkit-admin.git`，
+因此 GitHub Pages 解析目标应为：
+
+- `v18268185209.github.io`
+
+### 2. DNS 配置
+
+在域名服务商添加记录：
+
+- 记录类型：`CNAME`
+- 主机记录：`yc`
+- 记录值：`v18268185209.github.io`
+- TTL：默认即可
+
+### 3. GitHub 仓库设置
+
+进入：`Settings -> Pages`
+
+- Source 选择：`GitHub Actions`
+- Custom domain 填写：`yc.zqzqq.com`
+- 勾选：`Enforce HTTPS`（证书生效后）
+
+## 发布检查清单
+
+- `website/public/CNAME` 内容为 `yc.zqzqq.com`
+- `website-pages` workflow 运行成功
+- `https://v18268185209.github.io/brick-bootkit-admin/`（若项目页）或 Pages URL 可访问
+- `https://yc.zqzqq.com` 访问正常并自动 HTTPS
 
 ## 备注
 
-- Windows/Linux/macOS 安装包需在对应系统上构建。
-- 非当前系统无法构建的目标目录，会写入 `NOT_BUILT_ON_THIS_OS.txt` 说明文件。
-- 执行统一发布脚本后会自动生成网站下载数据：`website/public/data/downloads.json`。
-- 已提供 GitHub Actions 多平台发布工作流：`.github/workflows/release-matrix.yml`。
-- `v*` tag 推送时会自动发布 GitHub Release 并附加多平台压缩产物。
+- 官网当前为纯静态实现，不在前端存放 webhook/token 等敏感信息。
+- 若未来需要自动消息推送，建议接入独立外部服务（保持官网静态）。
