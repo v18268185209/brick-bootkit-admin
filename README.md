@@ -1,29 +1,38 @@
 ﻿# brick-bootkit-admin
 
-企业级官网与发布工作区，当前官网站点位于 `website/`，采用纯静态架构（Vite 多页面）。
+`brick-bootkit-admin` 官网仓库（纯静态站点）。
 
-## 项目定位
+当前仓库核心目标：
 
-- 官网用途：推广 `brick-bootkit-admin` 产品能力与场景价值（非安装文档站）。
-- 部署方式：GitHub Pages（静态托管）。
-- 联系方式：页面表单采用 `mailto` 生成邮件草稿，不依赖仓库内后端。
+- 展示产品能力、场景、治理与咨询入口（中文官网）。
+- 使用 GitHub Pages 自动部署。
+- 自定义域名为 `yc.zqzqq.com`。
 
-## 目录结构
+## 技术栈
+
+- Vite（多页面静态站）
+- 原生 HTML/CSS/JS
+- GitHub Actions（Pages 部署）
+
+## 仓库结构
 
 ```text
 brick-bootkit-admin/
-  website/                       # 官网源码（Vite MPA）
-    public/                      # 静态资源（SEO 文件、图片、CNAME）
-    src/                         # 前端样式与交互脚本
-    capability/                  # 平台能力页
-    scenarios/                   # 行业场景页
-    security/                    # 安全治理页
-    ecosystem/                   # 生态扩展页
-    faq/                         # 常见问题页
-    contact/                     # 联系咨询页
   .github/workflows/
-    website-pages.yml            # GitHub Pages 自动部署
-    website-ci.yml               # 站点构建校验
+    website-pages.yml           # GitHub Pages 自动部署工作流（已启用）
+  website/
+    capability/                 # 平台能力页
+    contact/                    # 联系咨询页
+    ecosystem/                  # 生态扩展页
+    faq/                        # 常见问题页
+    facts/                      # 产品事实页
+    scenarios/                  # 行业场景页
+    security/                   # 安全治理页
+    public/                     # 静态资源（含 CNAME、图片、SEO 文件）
+    scripts/                    # 辅助脚本（如图片优化）
+    src/                        # 全局样式与交互脚本
+    index.html                  # 首页
+    package.json
 ```
 
 ## 本地开发
@@ -34,7 +43,7 @@ npm ci
 npm run dev
 ```
 
-本地打包：
+本地构建：
 
 ```bash
 npm run build
@@ -46,54 +55,47 @@ npm run build
 npm run images:optimize
 ```
 
-## GitHub Pages 自动部署
+## GitHub Pages 部署
 
-仓库已提供：
+工作流文件：
 
-- `/.github/workflows/website-pages.yml`
-- `website/public/CNAME`
+- `.github/workflows/website-pages.yml`
 
 触发条件：
 
-- 推送到 `main` 且变更命中 `website/**` 或 `website-pages.yml`
-- 手动触发 `workflow_dispatch`
+- `main` 分支推送且命中 `website/**`。
+- 手动触发 `workflow_dispatch`。
 
-部署产物：`website/dist`。
+部署产物：
 
-## 自定义域名（yc.zqzqq.com）
+- `website/dist`
 
-### 1. CNAME 值
+## 自定义域名配置（yc.zqzqq.com）
 
-你的仓库远程为：`https://github.com/v18268185209/brick-bootkit-admin.git`，
-因此 GitHub Pages 解析目标应为：
+仓库已包含：
 
-- `v18268185209.github.io`
+- `website/public/CNAME`，内容为：`yc.zqzqq.com`
 
-### 2. DNS 配置
-
-在域名服务商添加记录：
+你在 DNS 服务商需要配置：
 
 - 记录类型：`CNAME`
 - 主机记录：`yc`
 - 记录值：`v18268185209.github.io`
-- TTL：默认即可
+- TTL：默认
 
-### 3. GitHub 仓库设置
+GitHub 仓库设置：
 
-进入：`Settings -> Pages`
+- `Settings -> Pages`
+- Source 选择 `GitHub Actions`
+- Custom domain 填 `yc.zqzqq.com`
+- 证书签发后勾选 `Enforce HTTPS`
 
-- Source 选择：`GitHub Actions`
-- Custom domain 填写：`yc.zqzqq.com`
-- 勾选：`Enforce HTTPS`（证书生效后）
+## 访问说明
 
-## 发布检查清单
+- 主访问域名：`https://yc.zqzqq.com`
+- 当绑定了自定义域名后，`github.io` 地址可能会重定向到自定义域名，属正常行为。
 
-- `website/public/CNAME` 内容为 `yc.zqzqq.com`
-- `website-pages` workflow 运行成功
-- `https://v18268185209.github.io/brick-bootkit-admin/`（若项目页）或 Pages URL 可访问
-- `https://yc.zqzqq.com` 访问正常并自动 HTTPS
+## 说明
 
-## 备注
-
-- 官网当前为纯静态实现，不在前端存放 webhook/token 等敏感信息。
-- 若未来需要自动消息推送，建议接入独立外部服务（保持官网静态）。
+- 官网为纯静态架构，前端不存放 webhook/token 等敏感信息。
+- 表单采用静态安全策略（邮件草稿方式），不依赖仓库内后端服务。
