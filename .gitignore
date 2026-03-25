@@ -40,3 +40,7 @@ release/payload/*
 release/reports/*
 !release/.keep/
 !release/.keep/**
+
+# Maven
+**/target/
+.mvn/
