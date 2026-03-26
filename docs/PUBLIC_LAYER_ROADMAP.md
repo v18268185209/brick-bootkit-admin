@@ -14,13 +14,28 @@ This repository is the public contract layer for the `brick-bootkit-admin` ecosy
 ## Current public contract scope
 
 - install payloads
+- install status models
+- install dependency check models
 - install lifecycle events
+- current account model
+- company info model
+- current account provider SPI
+- company provider SPI
+- public persistence base entity
+- base shared constants
+- machine code api models
+- health monitor models
+- log management models
+- command execution result model
+- request crypto payload models
+- request crypto public key metadata model
 - SSL automation payloads
 - SSL reload lifecycle events
 - license mode enum
 - dashboard and monitor VO models
 - user and permission VO models
 - message channel DTO and SPI contracts
+- message event type enum
 - message dispatch event models
 
 ## Planned next modules
