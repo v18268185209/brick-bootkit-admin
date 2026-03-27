@@ -31,6 +31,7 @@ public class InstallStatus {
     private String sqlScriptDirectory;
     private List<String> sqlScriptFiles;
     private List<String> missingSqlScripts;
+    private InstallAgreementStatus agreement;
     private InstallAppStatus app;
     private InstallMysqlStatus mysql;
     private InstallRedisStatus redis;
