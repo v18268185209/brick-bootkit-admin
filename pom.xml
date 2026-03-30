@@ -3,6 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.5.5</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
 
     <groupId>cn.net.rjnetwork</groupId>
     <artifactId>brick-bootkit-admin-parent</artifactId>
@@ -45,6 +52,7 @@
         <module>brick-boot-admin-api</module>
         <module>eqadmin-spi</module>
         <module>eqadmin-result</module>
+        <module>eqadmin-plugins</module>
     </modules>
 
     <properties>
@@ -58,6 +66,11 @@
         <jackson.version>2.18.2</jackson.version>
         <hutool.version>5.8.36</hutool.version>
         <lombok.version>1.18.38</lombok.version>
+        <brick-bootkit.version>4.0.6</brick-bootkit.version>
+        <mysql-connector.version>8.0.27</mysql-connector.version>
+        <netty.version>4.1.49.Final</netty.version>
+        <mybatis-plus.version>3.5.14</mybatis-plus.version>
+        <druid.version>1.2.22</druid.version>
     </properties>
 
     <dependencyManagement>
@@ -77,6 +90,58 @@
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.zqzqq</groupId>
+                <artifactId>spring-boot3-brick-bootkit</artifactId>
+                <version>${brick-bootkit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.zqzqq</groupId>
+                <artifactId>spring-boot3-brick-bootkit-bootstrap</artifactId>
+                <version>${brick-bootkit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-jsqlparser</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>2025.1.0-M2</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2023.0.3.3</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
