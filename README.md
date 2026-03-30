@@ -398,6 +398,51 @@ payload/
 
 - [docs/RELEASE_TEMPLATE.md](./docs/RELEASE_TEMPLATE.md)
 
+## 版本更新脚本
+
+项目根目录提供了跨平台版本更新脚本，用于统一更新当前仓库内所有模块 `pom.xml` 的项目版本。
+
+脚本位置：
+
+- `scripts/set-version.py`
+- `scripts/set-version.ps1`
+- `scripts/set-version.sh`
+
+使用方式：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\set-version.ps1 1.2.0-SNAPSHOT
+```
+
+```bash
+sh ./scripts/set-version.sh 1.2.0-SNAPSHOT
+```
+
+```bash
+python3 ./scripts/set-version.py 1.2.0-SNAPSHOT
+```
+
+先预览不落盘：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\set-version.ps1 1.2.0-SNAPSHOT -DryRun
+```
+
+```bash
+python3 ./scripts/set-version.py 1.2.0-SNAPSHOT --dry-run
+```
+
+脚本会统一更新：
+
+- 根目录 `pom.xml`
+- `eqadmin-bom`
+- `eqadmin-core-constants`
+- `eqadmin-annotations`
+- `brick-boot-admin-api`
+- `eqadmin-spi`
+- `eqadmin-result`
+- `eqadmin-plugins`
+
 ---
 
 ## 授权与套餐说明
