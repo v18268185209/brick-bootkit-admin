@@ -68,7 +68,6 @@
         <lombok.version>1.18.38</lombok.version>
         <brick-bootkit.version>4.0.6</brick-bootkit.version>
         <mysql-connector.version>8.0.27</mysql-connector.version>
-        <netty.version>4.1.49.Final</netty.version>
         <mybatis-plus.version>3.5.14</mybatis-plus.version>
         <druid.version>1.2.22</druid.version>
     </properties>
@@ -104,11 +103,6 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql-connector.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>io.netty</groupId>
-                <artifactId>netty-all</artifactId>
-                <version>${netty.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.baomidou</groupId>
