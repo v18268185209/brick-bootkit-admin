@@ -13,7 +13,7 @@
 
     <groupId>cn.net.rjnetwork</groupId>
     <artifactId>brick-bootkit-admin-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <name>brick-bootkit-admin-parent</name>
@@ -66,7 +66,7 @@
         <jackson.version>2.18.2</jackson.version>
         <hutool.version>5.8.36</hutool.version>
         <lombok.version>1.18.38</lombok.version>
-        <brick-bootkit.version>4.0.6</brick-bootkit.version>
+        <brick-bootkit.version>4.0.7</brick-bootkit.version>
         <mysql-connector.version>8.0.27</mysql-connector.version>
         <mybatis-plus.version>3.5.14</mybatis-plus.version>
         <druid.version>1.2.22</druid.version>
